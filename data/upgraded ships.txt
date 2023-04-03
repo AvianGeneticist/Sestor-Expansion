@@ -1,0 +1,286 @@
+#For use with Play as Sestor.
+
+ship "Uplifted Pai Lek 36"
+	sprite "ship/pai lek 36"
+	thumbnail "ship/pai lek 36"
+	attributes
+		category "Bomber"
+		"cost" 3280000
+		"shields" 11300
+		"hull" 12100
+		"automaton" 1
+		"mass" 210
+		"drag" 6.7
+		"heat dissipation" 1.0
+		"outfit space" 435
+		"weapon capacity" 136
+		"engine capacity" 90
+		"self destruct" .5
+		weapon
+			"blast radius" 250
+			"shield damage" 3200
+			"hull damage" 1600
+			"hit force" 4800
+	outfits
+		"Enhanced Detainer" 2
+		
+		"Double Augmented Plasma Core"
+		"Tuned Generator (Candle Class)"
+		"Advanced Systems Core (Medium)"
+		"Advanced Systems Core (Small)"
+		"Reengineered Large Heat Shunt"
+		"Reengineered Small Heat Shunt"
+		
+		"Thruster (Comet Class)"
+		"Thruster (Asteroid Class)"
+		"Steering (Planetary Class)"
+	
+	engine -5 90
+	gun -1.5 -83.5
+	gun -1.5 -83.5
+	explode "tiny explosion" 60
+	explode "small explosion" 30
+	explode "medium explosion" 35
+	explode "large explosion" 20
+	explode "huge explosion" 6
+	"final explode" "final explosion medium"
+	description "As is traditional with the Sestor's fighters, the upgrades to the Pai Lek included a doubling of its available firepower. Cramming two detainers into a small package like the Pai Lek was only made possible by the reduction of the detainer's size during earlier technological development."
+	description "In addition to enhanced firepower, the upgraded model features greater energy generation and superior mobility, allowing it to direct its powerful long range fire where it's needed most."
+
+ship "Uplifted Tak Kor Pei 412"
+	sprite "ship/tak kor pei 412"
+	thumbnail "thumbnail/tak kor pei 412"
+	attributes
+		category "Heavy Warship"
+		"cost" 85150000
+		"shields" 90200
+		"hull" 136300
+		"automaton" 1
+		"crew equivalent" 215
+		"mass" 1470
+		"drag" 19.2
+		"heat dissipation" .5
+		"fuel capacity" 600
+		"cargo space" 155
+		"outfit space" 2357
+		"weapon capacity" 957
+		"engine capacity" 268
+		"self destruct" .8
+		"ramscoop" 4
+		weapon
+			"blast radius" 450
+			"shield damage" 6400
+			"hull damage" 3200
+			"hit force" 9600
+	outfits
+		"Enhanced Detainer" 6
+		"Piercer Missile Augmentator" 3
+		"Piercer Missile" 183
+		"Piercer Missile Rack" 3
+		"Enhanced Warder Anti-Missile" 4
+		"Enhanced Repeater Turret" 12
+		
+		"Triple Augmented Plasma Core" 3
+		"Double Augmented Plasma Core"
+		"Tuned Generator (Inferno Class)"
+		"Advanced Systems Core (Large)" 2
+		"Reengineered Huge Heat Shunt" 3
+		"Reengineered Large Heat Shunt" 2
+		
+		"Thruster (Stellar Class)"
+		"Steering (Stellar Class)"
+		"Steering (Planetary Class)"
+		Hyperdrive
+	
+	engine -4 360.5
+	engine 16 360.5
+	engine 34 360.5
+	gun 24 -329.5 "Enhanced Detainer"
+	gun 27 -329.5 "Enhanced Detainer"
+	gun 15.5 -310.5 "Enhanced Detainer"
+	gun -26.5 -35 "Piercer Missile Augmentator"
+	gun -32 -6 "Piercer Missile Augmentator"
+	gun -35.5 19 "Piercer Missile Augmentator"
+	gun -49 29 "Enhanced Detainer"
+	gun -54 29 "Enhanced Detainer"
+	gun -61 47 "Enhanced Detainer"
+	turret 43 -247 "Enhanced Repeater Turret"
+	turret 44 -224.5 "Enhanced Repeater Turret"
+	turret 46 -201.5 "Enhanced Warder Anti-Missile"
+	turret 46 -177.5 "Enhanced Repeater Turret"
+	turret 46 -152.5 "Enhanced Repeater Turret"
+	turret 50 -114 "Enhanced Repeater Turret"
+	turret 50 -70.5 "Enhanced Warder Anti-Missile"
+	turret 46 -32.5 "Enhanced Repeater Turret"
+	turret 46 -8.5 "Enhanced Repeater Turret"
+	turret 46 17 "Enhanced Repeater Turret"
+	turret -30 33.5 "Enhanced Warder Anti-Missile"
+	turret 47.5 52.5 "Enhanced Repeater Turret"
+	turret 55.5 142 "Enhanced Repeater Turret"
+	turret 53.5 208.5 "Enhanced Repeater Turret"
+	turret 70.5 235.5 "Enhanced Repeater Turret"
+	turret 65 261.5 "Enhanced Warder Anti-Missile"
+	bay "Fighter" 20.5 -270.5 under
+		"launch effect" "korath external"
+	bay "Fighter" 16 -254 under
+		"launch effect" "korath external"
+	bay "Fighter" 22.5 -236.5 under
+		"launch effect" "korath external"
+	bay "Fighter" 8 -216 under
+		"launch effect" "korath external"
+	bay "Fighter" 6 -172 under
+		"launch effect" "korath external"
+	bay "Fighter" -5.5 -142.5 under
+		"launch effect" "korath external"
+	bay "Fighter" -21 -115.5 under
+		"launch effect" "korath external"
+	bay "Fighter" -25.5 -84 under
+		"launch effect" "korath external"
+	bay "Fighter" -10 -10.5 under
+		"launch effect" "korath external"
+	bay "Fighter" -11.5 32.5 under
+		"launch effect" "korath external"
+	bay "Fighter" -60 96 under
+		"launch effect" "korath external"
+	bay "Fighter" -66.5 144 under
+		"launch effect" "korath external"
+	bay "Fighter" -80 186 under
+		"launch effect" "korath external"
+	bay "Fighter" -64 193 over
+		"launch effect" "korath external"
+	bay "Fighter" -66.5 229 under
+		"launch effect" "korath external"
+	bay "Fighter" 17.5 -111.5 over
+		"launch effect" "korath external"
+	bay "Fighter" 18 -79 over
+		"launch effect" "korath external"
+	bay "Fighter" 11.5 -10.5 over
+		"launch effect" "korath external"
+	bay "Fighter" 7.5 56 over
+		"launch effect" "korath external"
+	bay "Fighter" 19 90 over
+		"launch effect" "korath external"
+	bay "Fighter" -8 117.5 over
+		"launch effect" "korath external"
+	bay "Fighter" 20 148.5 over
+		"launch effect" "korath external"
+	bay "Fighter" -4 164.5 over
+		"launch effect" "korath external"
+	bay "Fighter" 18 186 over
+		"launch effect" "korath external"
+	bay "Fighter" -8 203.5 over
+		"launch effect" "korath external"
+	bay "Fighter" 17.5 231 over
+		"launch effect" "korath external"
+	bay "Fighter" -4 265 over
+		"launch effect" "korath external"
+	bay "Fighter" 16.5 295.5 over
+		"launch effect" "korath external"
+	bay "Fighter" 7.5 56 under
+		"launch effect" "korath external"
+	bay "Fighter" 19 90 under
+		"launch effect" "korath external"
+	bay "Fighter" -8 117.5 under
+		"launch effect" "korath external"
+	bay "Fighter" 20 148.5 under
+		"launch effect" "korath external"
+	bay "Fighter" -4 164.5 under
+		"launch effect" "korath external"
+	bay "Fighter" 18 186 under
+		"launch effect" "korath external"
+	bay "Fighter" -8 203.5 under
+		"launch effect" "korath external"
+	bay "Fighter" 17.5 231 under
+		"launch effect" "korath external"
+	bay "Fighter" -4 265 under
+		"launch effect" "korath external"
+	bay "Fighter" -4 245 under
+		"launch effect" "korath external"
+	explode "tiny explosion" 120
+	explode "small explosion" 60
+	explode "medium explosion" 70
+	explode "large explosion" 50
+	explode "huge explosion" 15
+	"final explode" "final explosion large"
+	description "When uncompromising power is a must, this upgraded behemoth of a battlecarrier is everything Sestor doctrine demands: Powerful weaponry, a heavy fighter payload, and uncompromising performance."
+
+ship "Uplifted Tek Far 87 - Lek"
+	sprite "ship/tek far 87 lek"
+	thumbnail "thumbnail/tek far 87 - lek"
+	attributes
+		category "Heavy Warship"
+		"cost" 47870000
+		"shields" 34800
+		"hull" 42500
+		"automaton" 1
+		"crew equivalent" 70
+		"mass" 780
+		"drag" 10.8
+		"heat dissipation" .65
+		"fuel capacity" 500
+		"cargo space" 103
+		"outfit space" 1361
+		"weapon capacity" 607
+		"engine capacity" 158
+		"self destruct" .75
+		"ramscoop" 5
+		weapon
+			"blast radius" 360
+			"shield damage" 4700
+			"hull damage" 2300
+			"hit force" 7100
+	outfits
+		"Enhanced Detainer" 6
+		"Enhanced Banisher Grav-Turret"
+		"Enhanced Grab-Strike Turret" 2
+		"Enhanced Warder Anti-Missile" 2
+		
+		"Triple Augmented Plasma Core" 2
+		"Tuned Generator (Furnace Class)"
+		"Advanced Systems Core (Large)"
+		"Advanced Systems Core (Small)"
+		"Reengineered Huge Heat Shunt"
+		"Reengineered Large Heat Shunt"
+		
+		"Thruster (Planetary Class)"
+		"Steering (Stellar Class)"
+		"Hyperdrive"
+	
+	engine -25 309.5
+		zoom 1.1
+	engine -8 306.5
+	engine 8.5 302.5
+	gun -9 -271 "Enhanced Detainer"
+	gun -9 -271 "Enhanced Detainer"
+	gun 6 -260.5 "Enhanced Detainer"
+	gun 6 -260.5 "Enhanced Detainer"
+	gun 19.5 -242.5 "Enhanced Detainer"
+	gun 19.5 -242.5 "Enhanced Detainer"
+	turret -28.5 -199.5 "Enhanced Grab-Strike Turret"
+	turret -29.5 -176 "Enhanced Banisher Grav-Turret"
+	turret -31.5 -152.5 "Enhanced Warder Anti-Missile"
+	turret -32.5 -130 "Enhanced Grab-Strike Turret"
+	turret 76.5 -5 "Enhanced Warder Anti-Missile"
+	bay "Bomber" 27.5 127.5 over
+		"launch effect" "korath external"
+	bay "Bomber" 19.5 6 over
+		"launch effect" "korath external"
+	bay "Bomber" 27.5 127.5 over
+		"launch effect" "korath external"
+	bay "Bomber" 26.5 -121.5 over
+		"launch effect" "korath external"
+	bay "Bomber" 3.5 -185.5 over
+		"launch effect" "korath external"	
+	bay "Bomber" 28 246 under
+		"launch effect" "korath external"
+	bay "Bomber" 24 -17.5 under
+		"launch effect" "korath external"
+	bay "Bomber" 20.5 -175 under
+		"launch effect" "korath external"
+	explode "tiny explosion" 80
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The upgraded Tek Far 87 - Lek bomber carrier is designed for heavy area detainment duty, with its enormous battery of 6 detainers and space for a fleet of 8 Pai Lek 36 bombers. Once deployed, there is little that can escape its extensive reach and influence."

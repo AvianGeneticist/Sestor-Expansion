@@ -1,0 +1,5 @@
+category "ship"
+	"Bomber"
+	
+category "bay type"
+	"Bomber"

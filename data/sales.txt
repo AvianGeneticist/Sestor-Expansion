@@ -1,0 +1,6 @@
+shipyard "Sestor Basics"
+	"Pai Lek 36"
+shipyard "Sestor Advanced"
+	"Tak Kor Pei 412"
+	"Tek Far 87 - Lek"
+	"Set Ru Ket 112"
