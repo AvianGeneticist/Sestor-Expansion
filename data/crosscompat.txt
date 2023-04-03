@@ -12,6 +12,22 @@ mission "Fighter Hull Adaptation"
 event "crosscompat fighter research"
 	shipyard "Sestor Basics"
 		add "Uplifted Pai Lek 36"
+	fleet "Small Kor Sestor"
+		add variant 8
+			"Tek Far 87 - Lek"
+			"Uplifted Pai Lek 36" 5
+		add variant 3
+			"Tek Far 87 - Lek"
+			"Uplifted Pai Lek 36" 5
+			"Tek Far 71 - Lek"
+			"Uplifted Far Lek 14" 10
+	fleet "Large Kor Sestor"
+		add variant 6
+			"Kar Ik Vot 349 (Offense)"
+			"Tek Far 87 - Lek"
+			"Uplifted Pai Lek 36" 5
+			"Met Par Tek 53"
+			"Met Par Tek 53 (Sniper)"
 
 mission "Heavy Carrier Hull Adaptation"
 	description "Adds the upgraded Tek Far 87 - Lek to Sestor Shipyards."
@@ -25,8 +41,67 @@ mission "Heavy Carrier Hull Adaptation"
 event "crosscompat heavy carrier research"
 	shipyard "Sestor Advanced"
 		add "Uplifted Tek Far 87 - Lek"
+	fleet "Small Kor Sestor"
+		add variant 8
+			"Tek Far 87 - Lek"
+			"Uplifted Pai Lek 36" 5
+		add variant 3
+			"Tek Far 87 - Lek"
+			"Uplifted Pai Lek 36" 5
+			"Tek Far 71 - Lek"
+			"Uplifted Far Lek 14" 10
+	fleet "Large Kor Sestor"
+		add variant 5
+			"Uplifted Tek Far 87 - Lek"
+			"Uplifted Pai Lek 36" 8
+			"Uplifted Tek Far 78 - Osk"
+			"Uplifted Far Osk 27" 14
+			"Uplifted Tek Far 71 - Lek"
+			"Uplifted Far Lek 14" 16
 
-# There's no superheavies in vanilla so the superheavy research is added here instead.
+# There's no superheavies or logistics ships in vanilla so the expansion research is added here instead.
+
+mission "Ship Research - Heavy Logistics Hulls"
+	description "Start a 45 million credit research initiative to improve Sestor Heavy Logistics. Expected timespan is 100 days."
+	job
+	source "Firka Tesk"
+	destination "Firka Tesk"
+	to offer
+		"credits" >= 45000001
+		has "event: sestor light carrier research concluded"
+	on accept
+		payment -45000000
+		event "sestor heavy logistics research concluded" 100
+		
+event "sestor heavy logistics research concluded"
+	shipyard "Sestor Advanced"
+		add "Uplifted Set Ru Ket 112"
+	fleet "Small Kor Sestor"
+		add variant 4
+			"Uplifted Set Ru Ket 112"
+		add variant 2
+			"Uplifted Set Ru Ket 112"
+			"Uplifted Tek Far 78 - Osk"
+			"Uplifted Far Osk 27" 14
+		add variant 2
+			"Uplifted Set Ru Ket 112"
+			"Uplifted Tek Far 71 - Lek"
+			"Uplifted Far Lek 14" 16
+	fleet "Large Kor Sestor"
+		add variant 2
+			"Uplifted Set Ru Ket 112" 2
+		add variant 2
+			"Uplifted Set Ru Ket 112"
+			"Uplifted Met Par Tek 53" 2
+		add variant 2
+			"Uplifted Set Ru Ket 112"
+			"Kar Ik Vot 349"
+	fleet "Kor Sestor Miner"
+		add variant 4
+			"Uplifted Set Ru Ket 112"
+		add variant 2
+			"Uplifted Set Ru Ket 112"
+			"Uplifted Met Par Tek 53"
 
 mission "Ship Research - Superheavy Hulls"
 	description "Start a 100 million credit research initiative to improve Sestor Superheavy Ships. Expected timespan is 200 days."
@@ -43,4 +118,19 @@ mission "Ship Research - Superheavy Hulls"
 event "sestor superheavy ship research concluded"
 	shipyard "Sestor Advanced"
 		add "Uplifted Tak Kor Pei 412"
-	
+	fleet "Large Kor Sestor"
+		add variant 4
+			"Uplifted Tak Kor Pei 412"
+			"Uplifted Far Osk 27" 38
+		add variant 3
+			"Uplifted Tak Kor Pei 412"
+			"Uplifted Far Osk 27" 27
+		add variant 2
+			"Uplifted Tak Kor Pei 412"
+			"Uplifted Far Osk 27" 38
+			"Uplifted Kar Ik Vot 349"
+		add variant 1
+			"Uplifted Tak Kor Pei 412"
+			"Uplifted Far Osk 27" 38
+			"Uplifted Kar Ik Vot 349" 2
+			

@@ -47,6 +47,84 @@ ship "Uplifted Pai Lek 36"
 	description "As is traditional with the Sestor's fighters, the upgrades to the Pai Lek included a doubling of its available firepower. Cramming two detainers into a small package like the Pai Lek was only made possible by the reduction of the detainer's size during earlier technological development."
 	description "In addition to enhanced firepower, the upgraded model features greater energy generation and superior mobility, allowing it to direct its powerful long range fire where it's needed most."
 
+ship "Uplifted Set Ru Ket 112"
+	sprite "ship/set ru ket 112"
+	thumbnail "thumbnail/set ru ket 112"
+	attributes
+		category "Heavy Freighter"
+		"cost" 33330000
+		"shields" 43200
+		"hull" 52600
+		"automaton" 1
+		"crew equivalent" 125
+		"mass" 690
+		"drag" 9.2
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 981
+		"outfit space" 1436
+		"weapon capacity" 572
+		"engine capacity" 201
+		"self destruct" .7
+		"ramscoop" 3
+		weapon
+			"blast radius" 350
+			"shield damage" 5600
+			"hull damage" 4000
+			"hit force" 5800
+	outfits
+		"Piercer Missile Augmentator" 2
+		"Piercer Missile" 138
+		"Piercer Missile Rack" 3
+		"Enhanced Thermal Repeater" 6
+		"Enhanced Repeater Turret" 12
+		"Enhanced Warder Anti-Missile" 4
+		
+		"Triple Augmented Plasma Core" 2
+		"Advanced Systems Core (Large)"
+		"Reengineered Huge Heat Shunt" 2
+		"Reengineered Large Heat Shunt" 2
+		"Asteroid Scanner" 2
+		
+		"Thruster (Planetary Class)"
+		"Thruster (Lunar Class)"
+		"Steering (Stellar Class)"
+		"Hyperdrive"
+	
+	engine -24 132
+	engine 24 132
+	gun -6 -281 "Piercer Missile Augmentator"
+	gun 6 -281 "Piercer Missile Augmentator"
+	gun -95.5 -133
+	gun 95.5 -133
+	gun -100 -114.5
+	gun 100 -114.5
+	gun -103.5 -86.5
+	gun 103.5 -86.5
+	turret -40 -182.5
+	turret 40 -182.5
+	turret -90.5 -93 "Enhanced Warder Anti-Missile"
+	turret 90.5 -93 "Enhanced Warder Anti-Missile"
+	turret -92 -74.5
+	turret 92 -74.5
+	turret -94 -54
+	turret 94 -54
+	turret -93.5 -28.5
+	turret 93.5 -28.5
+	turret -96 13
+	turret 96 13
+	turret -132 64.5 "Enhanced Warder Anti-Missile"
+	turret 132 64.5 "Enhanced Warder Anti-Missile"
+	turret -135 161.5
+	turret 135 161.5
+	explode "tiny explosion" 60
+	explode "small explosion" 30
+	explode "medium explosion" 35
+	explode "large explosion" 30
+	explode "huge explosion" 12
+	"final explode" "final explosion large"
+	description "The Kor Sestor rarely have a need for large-scale logistical ships, but the Set Ru Ket 112 is one of the few that sees use. It is a heavily armed and armored battlefreighter, with impressive staying power in its own right."
+
 ship "Uplifted Tak Kor Pei 412"
 	sprite "ship/tak kor pei 412"
 	thumbnail "thumbnail/tak kor pei 412"

@@ -181,7 +181,7 @@ ship "Set Ru Ket 112"
 		"shields" 31200
 		"hull" 39200
 		"automaton" 1
-		"crew equivalent" 25
+		"crew equivalent" 125
 		"mass" 720
 		"drag" 8.7
 		"heat dissipation" .65
