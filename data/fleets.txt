@@ -1,15 +1,15 @@
 fleet "Small Kor Sestor"
 	add variant 8
 		"Tek Far 87 - Lek"
-		"Pai Lek 36" 5
+		"Pai Lek 36" 7
 	add variant 3
 		"Tek Far 87 - Lek"
-		"Pai Lek 36" 5
+		"Pai Lek 36" 7
 		"Tek Far 71 - Lek"
 		"Far Lek 14" 10
 	add variant 3
 		"Tek Far 87 - Lek"
-		"Pai Lek 36" 5
+		"Pai Lek 36" 7
 		"Tek Far 78 - Osk"
 		"Far Osk 27" 9
 	add variant 2
@@ -28,23 +28,50 @@ fleet "Large Kor Sestor"
 	add variant 4
 		"Kar Ik Vot 349 (Offense)"
 		"Tek Far 87 - Lek"
-		"Pai Lek 36" 5
+		"Pai Lek 36" 7
 		"Met Par Tek 53"
 		"Met Par Tek 53 (Sniper)"
 	add variant 5
 		"Kar Ik Vot 349 (Trapper)"
 		"Tek Far 87 - Lek"
-		"Pai Lek 36" 4
+		"Pai Lek 36" 5
 		"Met Par Tek 53"
 		"Met Par Tek 53 (Sniper)"
 	add variant 2
 		"Tek Far 87 - Lek"
-		"Pai Lek 36" 5
+		"Pai Lek 36" 7
 		"Tek Far 78 - Osk"
 		"Far Osk 27" 9
 		"Tek Far 71 - Lek"
 		"Far Lek 14" 10
-	add variant 1
+	add variant 3
+		"Tek Far 98 - Osk"
+		"Pai Osk 45" 6
+	add variant 4
+		"Tek Far 98 - Osk"
+		"Pai Osk 45" 6
+		"Tek Far 87 - Lek"
+		"Pai Lek 36" 7
+	add variant 4
+		"Tek Far 98 - Osk"
+		"Pai Osk 45" 6
+		"Tek Far 78 - Osk"
+		"Far Osk 27" 9
+	add variant 2
+		"Tek Far 98 - Osk"
+		"Pai Osk 45" 6
+		"Tek Far 87 - Lek"
+		"Pai Lek 36" 7
+		"Tek Far 78 - Osk"
+		"Far Osk 27" 9
+		"Tek Far 71 - Lek"
+		"Far Lek 14" 10
+	add variant 4
+		"Kar Ik Vot 349 (Offense)"
+		"Tek Far 98 - Osk"
+		"Pai Osk 45" 6
+		"Met Par Tek 53" 2
+	add variant 2
 		"Tak Kor Pei 412"
 		"Far Osk 27" 28
 	add variant 2

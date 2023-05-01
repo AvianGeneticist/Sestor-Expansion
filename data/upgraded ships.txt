@@ -47,6 +47,63 @@ ship "Uplifted Pai Lek 36"
 	description "As is traditional with the Sestor's fighters, the upgrades to the Pai Lek included a doubling of its available firepower. Cramming two detainers into a small package like the Pai Lek was only made possible by the reduction of the detainer's size during earlier technological development."
 	description "In addition to enhanced firepower, the upgraded model features greater energy generation and superior mobility, allowing it to direct its powerful long range fire where it's needed most."
 
+ship "Uplifted Pai Osk 45"
+	sprite "ship/pai osk 45"
+	thumbnail "ship/pai osk 45"
+	attributes
+		category "Light Destroyer"
+		"cost" 9480000
+		"shields" 14200
+		"hull" 21800
+		"automaton" 1
+		"crew equivalent" 10
+		"mass" 290
+		"drag" 6.1
+		"heat dissipation" .85
+		"outfit space" 771
+		"weapon capacity" 328
+		"engine capacity" 94
+		"self destruct" .7
+		weapon
+			"blast radius" 250
+			"shield damage" 3200
+			"hull damage" 1600
+			"hit force" 4800
+	outfits
+		"Enhanced Detainer"
+		"Enhanced Repeater Turret" 4
+		"Enhanced Grab-Strike Turret" 2
+		"Enhanced Warder Anti-Missile" 2
+		
+		"Triple Augmented Plasma Core"
+		"Tuned Generator (Candle Class)"
+		"Advanced Systems Core (Large)"
+		"Reengineered Huge Heat Shunt"
+		
+		"Thruster (Lunar Class)"
+		"Thruster (Asteroid Class)"
+		"Steering (Lunar Class)"
+		"Steering (Asteroid Class)"
+	
+	engine -7.5 106
+	engine 20.5 99.5
+	gun 33.5 -70.5
+	turret -16.5 -58
+	turret -18 -38
+	turret -19.5 -15.5
+	turret -20.5 19 "Enhanced Warder Anti-Missile"
+	turret -20.5 37.5
+	turret -31 55.5 "Enhanced Grab-Strike Turret"	
+	turret -29.5 82 "Enhanced Grab-Strike Turret"
+	turret -25 103.5 "Enhanced Warder Anti-Missile"
+	explode "tiny explosion" 60
+	explode "small explosion" 30
+	explode "medium explosion" 35
+	explode "large explosion" 20
+	explode "huge explosion" 6
+	"final explode" "final explosion medium"
+	description "Though the Pai Osk's definitive turret capacity was able to be doubled, the forward gunnery sadly was not. Regardless, these ships are remarkably powerful, especially when deployed in numbers."
+
 ship "Uplifted Set Ru Ket 112"
 	sprite "ship/set ru ket 112"
 	thumbnail "thumbnail/set ru ket 112"
@@ -129,7 +186,7 @@ ship "Uplifted Tak Kor Pei 412"
 	sprite "ship/tak kor pei 412"
 	thumbnail "thumbnail/tak kor pei 412"
 	attributes
-		category "Heavy Warship"
+		category "Superheavy"
 		"cost" 85150000
 		"shields" 90200
 		"hull" 136300
@@ -288,8 +345,8 @@ ship "Uplifted Tek Far 87 - Lek"
 	attributes
 		category "Heavy Warship"
 		"cost" 47870000
-		"shields" 34800
-		"hull" 42500
+		"shields" 56700
+		"hull" 62000
 		"automaton" 1
 		"crew equivalent" 70
 		"mass" 780
@@ -343,6 +400,8 @@ ship "Uplifted Tek Far 87 - Lek"
 		"launch effect" "korath external"
 	bay "Bomber" 19.5 6 over
 		"launch effect" "korath external"
+	bay "Bomber" 19.5 6 over
+		"launch effect" "korath external"
 	bay "Bomber" 27.5 127.5 over
 		"launch effect" "korath external"
 	bay "Bomber" 26.5 -121.5 over
@@ -350,6 +409,8 @@ ship "Uplifted Tek Far 87 - Lek"
 	bay "Bomber" 3.5 -185.5 over
 		"launch effect" "korath external"	
 	bay "Bomber" 28 246 under
+		"launch effect" "korath external"
+	bay "Bomber" 24 -17.5 under
 		"launch effect" "korath external"
 	bay "Bomber" 24 -17.5 under
 		"launch effect" "korath external"
@@ -361,4 +422,99 @@ ship "Uplifted Tek Far 87 - Lek"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The upgraded Tek Far 87 - Lek bomber carrier is designed for heavy area detainment duty, with its enormous battery of 6 detainers and space for a fleet of 8 Pai Lek 36 bombers. Once deployed, there is little that can escape its extensive reach and influence."
+	description "The upgraded Tek Far 87 - Lek bomber carrier is designed for heavy area detainment duty, with its enormous battery of 6 detainers and space for a fleet of 10 Pai Lek 36 bombers. Once deployed, there is little that can escape its extensive reach and influence."
+
+ship "Uplifted Tek Far 98 - Osk"
+	sprite "ship/tek far 98 - osk"
+	thumbnail "thumbnail/tek far 98 - osk"
+	attributes
+		category "Heavy Warship"
+		"cost" 77620000
+		"shields" 66600
+		"hull" 85700
+		"automaton" 1
+		"crew equivalent" 100
+		"mass" 990
+		"drag" 16.0
+		"heat dissipation" .55
+		"fuel capacity" 500
+		"cargo space" 187
+		"outfit space" 1719
+		"weapon capacity" 757
+		"engine capacity" 216
+		"self destruct" .8
+		"ramscoop" 5
+		weapon
+			"blast radius" 410
+			"shield damage" 7000
+			"hull damage" 5000
+			"hit force" 9200
+	outfits
+		"Enhanced Detainer" 2
+		"Piercer Missile Augmentator" 6
+		"Piercer Missile" 366
+		"Piercer Missile Rack" 6
+		"Enhanced Repeater Turret" 5
+		"Enhanced Grab-Strike Turret" 3
+		"Enhanced Warder Anti-Missile" 3
+		
+		"Triple Augmented Plasma Core" 2
+		"Augmented Plasma Core"
+		"Advanced Systems Core (Large)"
+		"Advanced Systems Core (Medium)"
+		"Reengineered Huge Heat Shunt" 2
+		"Reengineered Large Heat Shunt"
+		
+		"Thruster (Planetary Class)"
+		"Thruster (Comet Class)"
+		"Steering (Stellar Class)"
+		"Steering (Lunar Class)"
+		"Hyperdrive"
+	
+	engine -37 361
+	engine 12.5 361
+	gun 1 -289.5 "Enhanced Detainer"
+	gun 1 -289.5 "Enhanced Detainer"
+	gun 1 -289.5
+	gun -10 -283 "Piercer Missile Augmentator"
+	gun -10 -283 "Piercer Missile Augmentator"
+	gun -10 -283 "Piercer Missile Augmentator"
+	gun -20 -264 "Piercer Missile Augmentator"
+	gun -92 187 "Piercer Missile Augmentator"
+	turret 25 -273.5 "Enhanced Repeater Turret"
+	turret 27 -254 "Enhanced Repeater Turret"
+	turret 28.5 -230.5
+	turret 30 -207.5 "Enhanced Warder Anti-Missile"
+	turret 30 -183.5 "Enhanced Repeater Turret"
+	turret 35 -150.5 "Enhanced Repeater Turret"
+	turret 35 -127.5
+	turret 30 -83 "Enhanced Grab-Strike Turret"
+	turret 32.5 -47.5 "Enhanced Warder Anti-Missile"
+	turret 39 21 "Enhanced Repeater Turret"
+	turret 42.5 92 "Enhanced Grab-Strike Turret"
+	turret 49 138
+	turret 84 256 "Enhanced Warder Anti-Missile"
+	turret 90.5 312.5 "Enhanced Grab-Strike Turret"
+	bay "Light Destroyer" -39 -203 over
+		"launch effect" "korath external"
+	bay "Light Destroyer" -83.5 -15 under
+		"launch effect" "korath external"
+	bay "Light Destroyer" -75 -150 under
+		"launch effect" "korath external"
+	bay "Light Destroyer" -45.5 -70 over
+		"launch effect" "korath external"
+	bay "Light Destroyer" -65.5 96 over
+		"launch effect" "korath external"
+	bay "Light Destroyer" -113 271.5 over
+		"launch effect" "korath external"
+	bay "Light Destroyer" -83 271.5 over
+		"launch effect" "korath external"
+	bay "Light Destroyer" -143 271.5 under
+		"launch effect" "korath external"
+	explode "tiny explosion" 80
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "With 2 additional bays, this upgraded carrier becomes more than a handful, hauling an invasion fleet's worth of firepower at a moment's notice. The upgrades to the piercer missiles are especially noticeable aboard this ship as it rains havok upon enemy vessels from afar."

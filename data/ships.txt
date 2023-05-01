@@ -15,10 +15,10 @@ ship "Pai Lek 36"
 		"engine capacity" 64
 		"self destruct" .5
 		weapon
-			"blast radius" 250
-			"shield damage" 3200
-			"hull damage" 1600
-			"hit force" 4800
+			"blast radius" 150
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3000
 	outfits
 		"Korath Detainer"
 		
@@ -43,11 +43,63 @@ ship "Pai Lek 36"
 	description "The Pai Lek 36 appears to have been built around a single concept: Utilise a fast, easily-constructable platform to provide a large amount of long-ranged fire support as cheaply as possible. Armed with a single Korath Detainer, these ships can be deployed in great numbers to cripple even the fastest ship's engines, allowing other ships in a Sestor fleet to rip apart the pinned target with shorter-ranged weapons."
 	description "Despite being built for long-ranged combat, the Pai Lek 31 still sports a rather robust hull, suggesting that earlier models may have been intended to fight closer to the fray, where the ship might be in danger."
 
+ship "Pai Osk 45"
+	sprite "ship/pai osk 45"
+	thumbnail "ship/pai osk 45"
+	attributes
+		category "Light Destroyer"
+		"cost" 6480000
+		"shields" 10100
+		"hull" 15400
+		"automaton" 1
+		"crew equivalent" 10
+		"mass" 320
+		"drag" 5.1
+		"heat dissipation" .85
+		"outfit space" 485
+		"weapon capacity" 214
+		"engine capacity" 80
+		"self destruct" .6
+		weapon
+			"blast radius" 250
+			"shield damage" 3200
+			"hull damage" 1600
+			"hit force" 4800
+	outfits
+		"Korath Detainer"
+		"Thermal Repeater Turret" 2
+		"Grab-Strike Turret"
+		"Warder Anti-Missile"
+		
+		"Double Plasma Core"
+		"Systems Core (Medium)"
+		"Large Heat Shunt"
+		"Small Heat Shunt" 3
+		
+		"Thruster (Lunar Class)"
+		"Steering (Lunar Class)"
+		"Steering (Asteroid Class)"
+	
+	engine -7.5 106
+	engine 20.5 99.5
+	gun 33.5 -70.5
+	turret -18 -38
+	turret -19.5 -15.5
+	turret -20.5 19
+	turret -20.5 37.5
+	explode "tiny explosion" 60
+	explode "small explosion" 30
+	explode "medium explosion" 35
+	explode "large explosion" 20
+	explode "huge explosion" 6
+	"final explode" "final explosion medium"
+	description "The Pai Osk 45 is a remarkably powerful carried ship, designed for deployment en masse to serve as turret-based support ships. Each Pai Osk 45 is equipped with anti-missile systems for minesweeping and a surprisingly robust armament to support its allies in the field with close-ranged fire support."
+
 ship "Tak Kor Pei 412"
 	sprite "ship/tak kor pei 412"
 	thumbnail "thumbnail/tak kor pei 412"
 	attributes
-		category "Heavy Warship"
+		category "Superheavy"
 		"cost" 61280000
 		"shields" 68400
 		"hull" 80300
@@ -250,7 +302,7 @@ ship "Tek Far 87 - Lek"
 		"automaton" 1
 		"crew equivalent" 70
 		"mass" 810
-		"drag" 11.0
+		"drag" 14.0
 		"heat dissipation" .55
 		"fuel capacity" 400
 		"cargo space" 58
@@ -295,15 +347,106 @@ ship "Tek Far 87 - Lek"
 	turret -31.5 -152.5 "Warder Anti-Missile"
 	turret -32.5 -130 "Grab-Strike Turret"
 	turret 76.5 -5 "Warder Anti-Missile"
-	bay "Bomber" 20.5 -175 under
-	bay "Bomber" 26.5 -121.5 over
-	bay "Bomber" 24 -17.5 under
-	bay "Bomber" 27.5 127.5 over
-	bay "Bomber" 28 246 under
+	bay "Bomber" 10.5 -179.5 over
+		"launch effect" "korath external"
+	bay "Bomber" 26 -128.5 under
+		"launch effect" "korath external"
+	bay "Bomber" 9.5 -50 under
+		"launch effect" "korath external"
+	bay "Bomber" 22 3 over
+		"launch effect" "korath external"
+	bay "Bomber" 11 68 under
+		"launch effect" "korath external"
+	bay "Bomber" 20 144.5 over
+		"launch effect" "korath external"
+	bay "Bomber" 26 224.5 over
+		"launch effect" "korath external"
 	explode "tiny explosion" 80
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "This large vessel seems to exist as a counterpart to the Kar Ik Vot 349, specializing in carrying nearly half a dozen Pai Lek 36 Bombers to where they need to go while also serving as a capable meatshield for its complement."
+	description "This large vessel seems to exist as a counterpart to the Kar Ik Vot 349, specializing in carrying over half a dozen Pai Lek 36 Bombers to where they need to go while also serving as a capable meatshield for its complement."
+
+ship "Tek Far 98 - Osk"
+	sprite "ship/tek far 98 - osk"
+	thumbnail "thumbnail/tek far 98 - osk"
+	attributes
+		category "Heavy Warship"
+		"cost" 43670000
+		"shields" 42100
+		"hull" 58300
+		"automaton" 1
+		"crew equivalent" 100
+		"mass" 990
+		"drag" 16.0
+		"heat dissipation" .45
+		"fuel capacity" 400
+		"cargo space" 103
+		"outfit space" 1019
+		"weapon capacity" 451
+		"engine capacity" 181
+		"self destruct" .8
+		"ramscoop" 4
+		weapon
+			"blast radius" 410
+			"shield damage" 7000
+			"hull damage" 5000
+			"hit force" 9200
+	outfits
+		"Korath Detainer" 2
+		"Piercer Missile Launcher" 3
+		"Piercer Missile Rack"
+		"Piercer Missile" 109
+		"Thermal Repeater Turret"
+		"Grab-Strike Turret" 2
+		"Warder Anti-Missile" 3
+		
+		"Triple Plasma Core"
+		"Generator (Candle Class)"
+		"Systems Core (Large)"
+		"Large Heat Shunt" 3
+		"Small Heat Shunt" 2
+		"Control Transceiver"
+		
+		"Thruster (Planetary Class)"
+		"Thruster (Asteroid Class)"
+		"Steering (Stellar Class)"
+		"Hyperdrive"
+	
+	engine -37 361
+	engine 12.5 361
+	gun 1 -289.5 "Korath Detainer"
+	gun 1 -289.5 "Korath Detainer"
+	gun -10 -283
+	gun -10 -283 "Piercer Missile Launcher"
+	gun -20 -264 "Piercer Missile Launcher"
+	gun -92 187 "Piercer Missile Launcher"
+	turret 27 -254
+	turret 28.5 -230.5 "Warder Anti-Missile"
+	turret 30 -207.5 "Grab-Strike Turret"
+	turret 30 -183.5 "Grab-Strike Turret"
+	turret 30 -83 "Warder Anti-Missile"
+	turret 32.5 -47.5
+	turret 49 138 "Warder Anti-Missile"
+	turret 90.5 312.5
+	bay "Light Destroyer" -39 -203 over
+		"launch effect" "korath external"
+	bay "Light Destroyer" -83.5 -15 under
+		"launch effect" "korath external"
+	bay "Light Destroyer" -75 -150 under
+		"launch effect" "korath external"
+	bay "Light Destroyer" -45.5 -70 over
+		"launch effect" "korath external"
+	bay "Light Destroyer" -65.5 96 over
+		"launch effect" "korath external"
+	bay "Light Destroyer" -113 271.5 over
+		"launch effect" "korath external"
+	explode "tiny explosion" 80
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "When loaded with a full complement of 6 light destroyers, this ship becomes a formidable opponent, able to rain fire on enemies from a distance while its swarm denies any opportunity to approach."
