@@ -13,7 +13,7 @@ event "crosscompat fighter research"
 	shipyard "Sestor Basics"
 		add "Uplifted Pai Lek 36"
 	fleet "Small Kor Sestor"
-		add variant 8
+		add variant 4
 			"Tek Far 87 - Lek"
 			"Uplifted Pai Lek 36" 5
 		add variant 3
@@ -22,7 +22,7 @@ event "crosscompat fighter research"
 			"Tek Far 71 - Lek"
 			"Uplifted Far Lek 14" 10
 	fleet "Large Kor Sestor"
-		add variant 6
+		add variant 3
 			"Kar Ik Vot 349 (Offense)"
 			"Tek Far 87 - Lek"
 			"Uplifted Pai Lek 36" 5
@@ -42,21 +42,21 @@ event "crosscompat light warship research"
 	shipyard "Sestor Basics"
 		add "Uplifted Pai Osk 45"
 	fleet "Large Kor Sestor"
-		add variant 8
-			"Uplifted Tek Far 98 - Osk"
-			"Uplifted Pai Osk 45" 10
-		add variant 3
-			"Uplifted Tek Far 98 - Osk"
-			"Uplifted Pai Osk 45" 10
-			"Tek Far 87 - Lek"
-			"Uplifted Pai Lek 45" 10
 		add variant 4
-			"Uplifted Tek Far  - Lek"
-			"Uplifted Pai Lek 36" 8
-			"Uplifted Tek Far 78 - Osk"
-			"Uplifted Far Osk 27" 14
-			"Uplifted Tek Far 71 - Lek"
-			"Uplifted Far Lek 14" 16
+			"Tek Far 98 - Osk"
+			"Uplifted Pai Osk 45" 6
+		add variant 3
+			"Tek Far 98 - Osk"
+			"Uplifted Pai Osk 45" 6
+			"Tek Far 87 - Lek"
+			"Uplifted Pai Lek 36" 7
+		add variant 4
+			"Tek Far 87 - Lek"
+			"Uplifted Pai Lek 36" 7
+			"Tek Far 78 - Osk"
+			"Uplifted Far Osk 27" 9
+			"Tek Far 71 - Lek"
+			"Uplifted Far Lek 14" 10
 
 mission "Heavy Carrier Hull Adaptation"
 	description "Adds the upgraded Tek Far 87 - Lek to Sestor Shipyards."
@@ -71,18 +71,18 @@ event "crosscompat heavy carrier research"
 	shipyard "Sestor Advanced"
 		add "Uplifted Tek Far 87 - Lek"
 	fleet "Small Kor Sestor"
-		add variant 8
-			"Tek Far 87 - Lek"
-			"Uplifted Pai Lek 36" 5
-		add variant 3
-			"Tek Far 87 - Lek"
-			"Uplifted Pai Lek 36" 5
-			"Tek Far 71 - Lek"
-			"Uplifted Far Lek 14" 10
-	fleet "Large Kor Sestor"
-		add variant 5
+		add variant 4
 			"Uplifted Tek Far 87 - Lek"
-			"Uplifted Pai Lek 36" 8
+			"Uplifted Pai Lek 36" 10
+		add variant 3
+			"Uplifted Tek Far 87 - Lek"
+			"Uplifted Pai Lek 36" 10
+			"Uplifted Tek Far 71 - Lek"
+			"Uplifted Far Lek 14" 16
+	fleet "Large Kor Sestor"
+		add variant 4
+			"Uplifted Tek Far 87 - Lek"
+			"Uplifted Pai Lek 36" 10
 			"Uplifted Tek Far 78 - Osk"
 			"Uplifted Far Osk 27" 14
 			"Uplifted Tek Far 71 - Lek"
@@ -103,17 +103,24 @@ event "crosscompat tf98 research"
 	shipyard "Sestor Advanced"
 		add "Uplifted Tek Far 98 - Osk"
 	fleet "Large Kor Sestor"
-		add variant 8
+		add variant 4
 			"Uplifted Tek Far 98 - Osk"
-			"Uplifted Pai Osk 45" 9
+			"Uplifted Pai Osk 45" 8
+		add variant 4
+			"Uplifted Tek Far 98 - Osk"
+			"Uplifted Pai Osk 45" 8
+			"Uplifted Tek Far 78 - Osk"
+			"Uplifted Far Osk 27" 14
 		add variant 3
 			"Uplifted Tek Far 98 - Osk"
-			"Uplifted Pai Osk 45" 9
-			"Tek Far 87 - Lek"
+			"Uplifted Pai Osk 45" 8
+			"Uplifted Tek Far 87 - Lek"
 			"Uplifted Pai Lek 36" 10
-		add variant 4
-			"Uplifted Tek Far  - Lek"
-			"Uplifted Pai Lek 36" 8
+		add variant 2
+			"Uplifted Tek Far 98 - Osk"
+			"Uplifted Pai Osk 45" 9
+			"Uplifted Tek Far 87 - Lek"
+			"Uplifted Pai Lek 36" 10
 			"Uplifted Tek Far 78 - Osk"
 			"Uplifted Far Osk 27" 14
 			"Uplifted Tek Far 71 - Lek"
@@ -138,7 +145,7 @@ event "sestor heavy logistics research concluded"
 		add "Uplifted Set Ru Ket 112"
 	fleet "Small Kor Sestor"
 		add variant 4
-			"Uplifted Set Ru Ket 112"
+			"Uplifted Set Ru Ket 112"	
 		add variant 2
 			"Uplifted Set Ru Ket 112"
 			"Uplifted Tek Far 78 - Osk"
