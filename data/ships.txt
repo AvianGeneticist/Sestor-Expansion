@@ -13,7 +13,7 @@ ship "Pai Lek 36"
 		"outfit space" 292
 		"weapon capacity" 76
 		"engine capacity" 64
-		"self destruct" .5
+		"self destruct" .45
 		weapon
 			"blast radius" 150
 			"shield damage" 2600
@@ -59,7 +59,7 @@ ship "Pai Osk 45"
 		"outfit space" 485
 		"weapon capacity" 214
 		"engine capacity" 80
-		"self destruct" .6
+		"self destruct" .55
 		weapon
 			"blast radius" 250
 			"shield damage" 3200
@@ -95,6 +95,71 @@ ship "Pai Osk 45"
 	"final explode" "final explosion medium"
 	description "The Pai Osk 45 is a remarkably powerful carried ship, designed for deployment en masse to serve as turret-based support ships. Each Pai Osk 45 is equipped with anti-missile systems for minesweeping and a surprisingly robust armament to support its allies in the field with close-ranged fire support."
 
+ship "Tur Lek 57"
+	sprite "ship/tur lek 57"
+	thumbnail "thumbnail/tur lek 57"
+	attributes
+		category "Medium Destroyer"
+		"cost" 12270000
+		"shields" 16700
+		"hull" 20200
+		"automaton" 1
+		"crew equivalent" 25
+		"mass" 510
+		"drag" 8.1
+		"heat dissipation" .75
+		"outfit space" 450
+		"weapon capacity" 132
+		"engine capacity" 80
+		"self destruct" .65
+		"lir osk 05 throughput" 4
+		weapon
+			"blast radius" 320
+			"shield damage" 4000
+			"hull damage" 2000
+			"hit force" 6000
+	outfits
+		"Korath Detainer"
+		"Warder Anti-Missile" 2
+		"Lir Osk 05 Bay" 4
+		
+		"Double Plasma Core"
+		"Plasma Core"
+		"Systems Core (Medium)"
+		"Large Heat Shunt"
+		"Small Heat Shunt" 2
+		
+		"Thruster (Lunar Class)"
+		"Steering (Lunar Class)"
+		"Steering (Asteroid Class)"
+	
+	engine -12 178
+	engine 6 178
+	gun -2.5 -142.5 "Korath Detainer"
+	turret 14.5 -41
+	turret 15.5 -15.5
+	# Pseudo-bays below
+	gun -11.5 -78.5 "Lir Osk 05 Bay"
+		angle -90
+		parallel
+	gun -31.5 -17.5 "Lir Osk 05 Bay"
+		angle -90
+		parallel
+	gun -23 57 "Lir Osk 05 Bay"
+		angle -90
+		parallel
+	gun -46.5 97 "Lir Osk 05 Bay"
+		angle -90
+		parallel
+	explode "tiny explosion" 60
+	explode "small explosion" 50
+	explode "medium explosion" 35
+	explode "large explosion" 25
+	explode "huge explosion" 5
+	"final explode" "final explosion large"
+	description "A prime example of relentless Sestor engineering: this ship is capable of producing tiny drones before charging and launching them into the fray to attack enemy ships, while also being a carried attack drone in and of itself."
+
+
 ship "Tak Kor Pei 412"
 	sprite "ship/tak kor pei 412"
 	thumbnail "thumbnail/tak kor pei 412"
@@ -113,7 +178,7 @@ ship "Tak Kor Pei 412"
 		"outfit space" 1577
 		"weapon capacity" 682
 		"engine capacity" 211
-		"self destruct" .8
+		"self destruct" .9
 		"ramscoop" 4
 		weapon
 			"blast radius" 450
@@ -450,3 +515,84 @@ ship "Tek Far 98 - Osk"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "When loaded with a full complement of 6 light destroyers, this ship becomes a formidable opponent, able to rain fire on enemies from a distance while its swarm denies any opportunity to approach."
+
+ship "Tek Far 149 - Lek"
+	sprite "ship/tek far 149 - lek"
+	thumbnail "thumbnail/tek far 149 - lek"
+	attributes
+		category "Superheavy"
+		"cost" 49150000
+		"shields" 59800
+		"hull" 71200
+		"automaton" 1
+		"crew equivalent" 180
+		"mass" 1485
+		"drag" 25.2
+		"heat dissipation" .45
+		"fuel capacity" 600
+		"cargo space" 224
+		"outfit space" 1487
+		"weapon capacity" 669
+		"engine capacity" 242
+		"self destruct" .9
+		"ramscoop" 5
+		weapon
+			"blast radius" 410
+			"shield damage" 7000
+			"hull damage" 5000
+			"hit force" 9200
+	outfits
+		"Korath Detainer" 3
+		"Piercer Missile Launcher" 3
+		"Piercer Missile Rack"
+		"Piercer Missile" 109
+		"Thermal Repeater Turret" 3
+		"Grab-Strike Turret" 3
+		"Warder Anti-Missile" 4
+		
+		"Triple Plasma Core"
+		"Double Plasma Core"
+		"Generator (Furnace Class)"
+		"Systems Core (Large)"
+		"Systems Core (Small)"
+		"Large Heat Shunt" 6
+		"Control Transceiver"
+		
+		"Thruster (Stellar Class)"
+		"Steering (Stellar Class)"
+		"Steering (Comet Class)"
+		"Hyperdrive"
+	
+	engine 35 242
+	engine 9 479.5
+	engine -40.5 479
+	gun -25.5 -472 "Korath Detainer"
+	gun -25.5 -472
+	gun -2 -340 "Korath Detainer"
+	gun -2 -340
+	gun 11 -321.5 "Korath Detainer"
+	gun 11 -321.5
+	turret -45 -383 "Thermal Repeater Turret"
+	turret -47.5 -358.5 "Thermal Repeater Turret"
+	turret -48.5 -335 "Warder Anti-Missile"
+	turret -51 -312.5 "Thermal Repeater Turret"
+	turret -53.5 -101.5 "Warder Anti-Missile"
+	turret -68 -74 
+	turret -69 -56.5 "Grab-Strike Turret"
+	turret -71.5 -36.5 "Grab-Strike Turret"
+	turret -53.5 83 "Warder Anti-Missile"
+	turret -62 154 "Grab-Strike Turret"
+	turret 77.5 373 "Warder Anti-Missile"
+	turret 86.5 431 "Grab-Strike Turret"
+	bay "Medium Destroyer" 4 -226.5 over
+	bay "Medium Destroyer" 44.5 -95 under
+	bay "Medium Destroyer" 35 38.5 over
+	bay "Medium Destroyer" 66 133 under
+	bay "Medium Destroyer" 0 356.5 over
+	explode "tiny explosion" 80
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "A carrier this big is impractical to most flesh being minds, but for the Sestor, it's simply the next evolution in their tactics: A carrier that carries carriers, each able to desperse a large crowd of disposable microdrones. A full complement can support a fearsome swarm, while the carrier itself is among the most powerful warships fielded by the Sestor."

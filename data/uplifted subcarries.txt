@@ -1,0 +1,2478 @@
+outfit "Uplifted Lir Osk 05 Bay"
+	category "Secondary Weapons"
+	cost 1250000
+	thumbnail "outfit/piercer launcher"
+	"energy capacity" 4000
+	"gun ports" -1
+	"uplifted lir osk 05 throughput" -1
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"submunition" "uplifted lir osk 05 1a"
+		"inaccuracy" 5
+		"velocity" 20
+		"lifetime" 500
+		"reload" 450
+		"firing energy" 3600
+		"firing heat" 500
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"piercing" .2
+		"hit force" 300
+		"split range" 375
+		"cluster"
+		"phasing"
+	description "The Lir Osk 05 received the full treatment when being upgraded; it now features double the weapon count, with improved damage per shot to boot. The drones are also produced at an increased rate, greatly increasing swarming potential."
+
+outfit "enhanced mini repeater shot"
+	weapon
+		sprite "projectile/repeater"
+			"frame rate" 5
+		"hit effect" "repeater impact"
+		"inaccuracy" 3
+		"velocity" 12
+		"lifetime" 38
+		"shield damage" 31
+		"hull damage" 24
+		"heat damage" 38
+		
+outfit "enhanced mini repeater salvo 1"
+	weapon
+		"lifetime" 3
+		"submunition" "enhanced mini repeater shot"
+		
+outfit "enhanced mini repeater salvo 2"
+	weapon
+		"lifetime" 3
+		"submunition" "enhanced mini repeater salvo 1"
+		"submunition" "enhanced mini repeater shot"
+		
+# Yes, I really have to do this. I'm so, so sorry.
+		
+outfit "uplifted lir osk 05 1a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 1b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 1b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 2a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 2a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 2b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 2b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 3a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 3a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 3b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 3b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 4a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 4a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 4b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 4b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 5a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 5a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 5b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 5b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 6a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 6a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 6b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 6b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 7a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 7a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 7b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 7b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 8a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 8a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 8b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 8b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 9a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 9a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 9b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 9b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 10a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 10a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 10b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 10b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 11a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 11a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 11b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 11b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 12a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 12a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 12b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 12b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 13a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 13a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 13b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 13b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 14a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 14a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 14b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 14b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 15a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 15a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 15b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 15b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 16a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 16a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 16b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 16b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 17a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 17a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 17b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 17b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 18a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 18a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 18b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 18b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 19a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 19a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 19b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 19b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 20a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 20a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 20b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 20b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 21a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 21a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 21b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 21b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 22a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 22a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 22b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 22b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 23a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 23a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 23b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 23b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 24a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 24a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 24b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 24b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 25a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 25a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 25b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 25b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 26a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 26a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 26b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 26b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 27a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 27a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 27b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 27b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 28a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 28a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 28b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 28b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 29a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 29a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 29b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 29b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 30a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 30a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 30b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 30b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 31a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 31a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 31b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 31b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 32a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 32a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 32b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 32b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 33a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 33a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 33b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 33b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 34a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 34a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 34b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 34b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 35a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 35a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 35b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 35b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 36a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 36a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 36b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 36b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 37a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 37a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 37b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 37b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 38a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 38a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 38b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 38b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 39a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 39a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 39b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 39b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 40a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 40a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 40b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 40b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 41a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 41a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 41b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 41b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 42a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 42a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 42b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 42b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 43a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 43a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 43b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 43b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 44a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 44a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 44b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 44b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 45a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 45a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 45b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 45b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 46a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 46a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 46b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 46b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 47a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 47a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 47b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 47b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 48a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 48a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 48b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 48b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 49a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 49a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 49b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 49b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 50a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 50a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 50b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 50b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 51a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 51a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 51b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 51b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 52a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 52a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 52b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 52b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 53a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 53a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 53b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 53b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 54a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 54a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 54b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 54b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 55a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 55a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 55b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 55b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 56a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 56a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 56b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 56b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 57a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 57a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 57b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 57b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 58a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 58a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 58b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 58b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 59a"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		
+outfit "uplifted lir osk 05 59a"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "uplifted lir osk 05 59b"
+		"lifetime" 12
+		"velocity" -40
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"shield damage" -20
+		"hull damage" -17
+		"heat damage" -22
+		
+outfit "uplifted lir osk 05 59b"
+	weapon
+		sprite "projectile/lir osk 05"
+			"frame rate" 5
+			"random start frame"
+		sound "piercer"
+		"fire effect" "piercer fire"
+		"hit effect" "piercer impact"
+		"submunition" "enhanced mini repeater salvo 2"
+		"submunition" "enhanced mini repeater shot"
+		"lifetime" 120
+		"acceleration" 1
+		"drag" .05
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"phasing"
+		"split range" 375
+		

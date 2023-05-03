@@ -1,7 +1,9 @@
 category "ship"
 	"Bomber"
 	"Light Destroyer"
+	"Medium Destroyer"
 	
 category "bay type"
 	"Bomber"
 	"Light Destroyer"
+	"Medium Destroyer"

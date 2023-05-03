@@ -104,6 +104,83 @@ ship "Uplifted Pai Osk 45"
 	"final explode" "final explosion medium"
 	description "Though the Pai Osk's definitive turret capacity was able to be doubled, the forward gunnery sadly was not. Regardless, these ships are remarkably powerful, especially when deployed in numbers."
 
+ship "Uplifted Tur Lek 57"
+	sprite "ship/tur lek 57"
+	thumbnail "thumbnail/tur lek 57"
+	attributes
+		category "Medium Destroyer"
+		"cost" 12270000
+		"shields" 24700
+		"hull" 32600
+		"automaton" 1
+		"crew equivalent" 25
+		"mass" 600
+		"drag" 8.1
+		"heat dissipation" .85
+		"outfit space" 754
+		"weapon capacity" 208
+		"engine capacity" 112
+		"self destruct" .65
+		"uplifted lir osk 05 throughput" 6
+		weapon
+			"blast radius" 320
+			"shield damage" 4000
+			"hull damage" 2000
+			"hit force" 6000
+	outfits
+		"Enhanced Detainer"
+		"Enhanced Warder Anti-Missile" 3
+		"Enhanced Grab-Strike Turret"
+		"Uplifted Lir Osk 05 Bay" 6
+		
+		"Triple Augmented Plasma Core"
+		"Double Augmented Plasma Core"
+		"Tuned Generator (Candle Class)"
+		"Advanced Systems Core (Large)"
+		"Reengineered Large Heat Shunt" 3
+		"Reengineered Small Heat Shunt"
+		
+		"Thruster (Lunar Class)"
+		"Thruster (Comet Class)"
+		"Steering (Lunar Class)"
+		"Steering (Comet Class)"
+	
+	engine -12 178
+	engine 6 178
+	gun -2.5 -142.5 "Enhanced Detainer"
+	turret 13.5 -59.5 "Enhanced Grab-Strike Turret"
+	turret 14.5 -41
+	turret 15.5 -15.5
+	turret 21 133.5
+	# Pseudo-bays below
+	gun -10.5 -86 "Uplifted Lir Osk 05 Bay"
+		angle -90
+		parallel
+	gun -11.5 -78.5 "Uplifted Lir Osk 05 Bay"
+		angle -90
+		parallel
+	gun -31.5 -17.5 "Uplifted Lir Osk 05 Bay"
+		angle -90
+		parallel
+	gun -23 57 "Uplifted Lir Osk 05 Bay"
+		angle -90
+		parallel
+	gun -46.5 97 "Uplifted Lir Osk 05 Bay"
+		angle -90
+		parallel
+	gun -29.5 132 "Uplifted Lir Osk 05 Bay"
+		angle -90
+		parallel
+	explode "tiny explosion" 60
+	explode "small explosion" 50
+	explode "medium explosion" 35
+	explode "large explosion" 25
+	explode "huge explosion" 5
+	"final explode" "final explosion large"
+	description "The upgrades to the Tur Lek 57 included a great deal of enhancement to its carrying potential, as well as some tweaks to its armament. Though its direct firepower isn't greatly improved, it does possess a Grab-Strike to allow it to contribute some extra damage from afar."
+
+
+
 ship "Uplifted Set Ru Ket 112"
 	sprite "ship/set ru ket 112"
 	thumbnail "thumbnail/set ru ket 112"
@@ -518,3 +595,96 @@ ship "Uplifted Tek Far 98 - Osk"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "With 2 additional bays, this upgraded carrier becomes more than a handful, hauling an invasion fleet's worth of firepower at a moment's notice. The upgrades to the piercer missiles are especially noticeable aboard this ship as it rains havok upon enemy vessels from afar."
+
+ship "Uplifted Tek Far 149 - Lek"
+	sprite "ship/tek far 149 - lek"
+	thumbnail "thumbnail/tek far 149 - lek"
+	attributes
+		category "Superheavy"
+		"cost" 86720000
+		"shields" 91800
+		"hull" 110400
+		"automaton" 1
+		"crew equivalent" 180
+		"mass" 1385
+		"drag" 25.2
+		"heat dissipation" .5
+		"fuel capacity" 600
+		"cargo space" 342
+		"outfit space" 2158
+		"weapon capacity" 939
+		"engine capacity" 306
+		"self destruct" .9
+		"ramscoop" 6
+		weapon
+			"blast radius" 410
+			"shield damage" 7000
+			"hull damage" 5000
+			"hit force" 9200
+	outfits
+		"Enhanced Detainer" 4
+		"Piercer Missile Augmentator" 4
+		"Piercer Missile Rack" 4
+		"Piercer Missile" 244
+		"Enhanced Repeater Turret" 5
+		"Enhanced Grab-Strike Turret" 5
+		"Enhanced Warder Anti-Missile" 4
+		
+		"Triple Augmented Plasma Core" 2
+		"Double Augmented Plasma Core"
+		"Tuned Generator (Inferno Class)"
+		"Advanced Systems Core (Large)" 2
+		"Advanced Systems Core (Small)"
+		"Reengineered Huge Heat Shunt" 2
+		"Reengineered Large Heat Shunt"
+		"Reengineered Small Heat Shunt" 2
+		
+		"Thruster (Stellar Class)"
+		"Thruster (Lunar Class)"
+		"Steering (Stellar Class)"
+		"Steering (Planetary Class)"
+		"Hyperdrive"
+	
+	engine 35 242
+	engine 9 479.5
+	engine -40.5 479
+	gun -25.5 -472 "Korath Detainer"
+	gun -25.5 -472 "Enhanced Detainer"
+	gun -25.5 -472
+	gun -2 -340 "Korath Detainer"
+	gun -2 -340 "Piercer Missile Augmentator"
+	gun -2 -340 "Piercer Missile Augmentator" 
+	gun 11 -321.5 "Korath Detainer"
+	gun 11 -321.5 "Piercer Missile Augmentator"
+	gun 11 -321.5 "Piercer Missile Augmentator"
+	turret -44.5 -398.5 "Enhanced Repeater Turret"
+	turret -45 -383 "Enhanced Repeater Turret"
+	turret -47.5 -358.5 "Enhanced Repeater Turret"
+	turret -48.5 -335 "Enhanced Warder Anti-Missile"
+	turret -51 -312.5 "Enhanced Repeater Turret"
+	turret -59.5 -265 "Enhanced Repeater Turret"
+	turret -62.5 -233
+	turret -53.5 -101.5 "Enhanced Warder Anti-Missile"
+	turret -68 -74 
+	turret -69 -56.5 "Enhanced Grab-Strike Turret"
+	turret -71.5 -36.5 "Enhanced Grab-Strike Turret"
+	turret -76.5 -4.5
+	turret -53.5 83 "Enhanced Warder Anti-Missile"
+	turret -62 154 "Enhanced Grab-Strike Turret"
+	turret 79.5 331
+	turret 77.5 373 "Enhanced Warder Anti-Missile"
+	turret -55.5 412 "Enhanced Grab-Strike Turret"
+	turret 86.5 431 "Enhanced Grab-Strike Turret"
+	bay "Medium Destroyer" 4 -226.5 over
+	bay "Medium Destroyer" 44.5 -95 under
+	bay "Medium Destroyer" 68.5 -65 under
+	bay "Medium Destroyer" 35 38.5 over
+	bay "Medium Destroyer" 66 133 under
+	bay "Medium Destroyer" 0 356.5 over
+	explode "tiny explosion" 80
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "Though this carrier only has one more bay than its unupgraded version, the vastly increased potency of its carries more than makes up for it. Just one of these ships can draw the fire of an entire fleet so their carries can tear it apart."

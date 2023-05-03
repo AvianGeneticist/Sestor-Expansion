@@ -57,6 +57,44 @@ event "crosscompat light warship research"
 			"Uplifted Far Osk 27" 9
 			"Tek Far 71 - Lek"
 			"Uplifted Far Lek 14" 10
+			
+mission "Light Warship Hull Patch - TL57"
+	description "Adds the upgraded Tur Lek 57 to Sestor Shipyards."
+	landing
+	invisible
+	to offer
+		has "event: crosscompat light warship research"
+	on offer
+		event "crosscompat tl57 research"
+
+event "crosscompat tl57 research"
+	shipyard "Sestor Basics"
+		add "Uplifted Tur Lek 57"
+	fleet "Large Kor Sestor"
+		add variant 4
+			"Tek Far 149 - Lek"
+			"Uplifted Tur Lek 57" 5
+		add variant 3
+			"Tek Far 149 - Lek"
+			"Uplifted Tur Lek 57" 5
+			"Tek Far 87 - Lek"
+			"Uplifted Pai Lek 36" 7
+		add variant 1
+			"Tek Far 149 - Lek"
+			"Uplifted Tur Lek 57" 5
+			"Tek Far 98 - Osk"
+			"Uplifted Pai Osk 45" 6
+			"Tek Far 87 - Lek"
+			"Uplifted Pai Lek 36" 7
+			"Tek Far 78 - Osk"
+			"Uplifted Far Osk 27" 9
+			"Tek Far 71 - Lek"
+			"Uplifted Far Lek 14" 10
+		add variant 1
+			"Tak Kor Pei 412"
+			"Uplifted Far Osk 27" 28
+			"Tek Far 149 - Lek"
+			"Uplifted Tur Lek 57" 5
 
 mission "Heavy Carrier Hull Adaptation"
 	description "Adds the upgraded Tek Far 87 - Lek to Sestor Shipyards."
@@ -201,3 +239,40 @@ event "sestor superheavy ship research concluded"
 			"Uplifted Far Osk 27" 38
 			"Uplifted Kar Ik Vot 349" 2
 			
+mission "Superheavy Hull Patch - TF149L"
+	description "Adds the upgraded Terk Far 149 - Lek to Sestor Shipyards."
+	landing
+	invisible
+	to offer
+		has "event: sestor superheavy ship research concluded"
+	on offer
+		event "crosscompat tf149 research"
+
+event "crosscompat tf149 research"
+	shipyard "Sestor Advanced"
+		add "Uplifted Tek Far 149 - Lek"
+	fleet "Large Kor Sestor"
+		add variant 4
+			"Uplifted Tek Far 149 - Lek"
+			"Uplifted Tur Lek 57" 6
+		add variant 3
+			"Uplifted Tek Far 149 - Lek"
+			"Uplifted Tur Lek 57" 6
+			"Uplifted Tek Far 87 - Lek"
+			"Uplifted Pai Lek 36" 10
+		add variant 1
+			"Uplifted Tek Far 149 - Lek"
+			"Uplifted Tur Lek 57" 6
+			"Uplifted Tek Far 98 - Osk"
+			"Uplifted Pai Osk 45" 8
+			"Uplifted Tek Far 87 - Lek"
+			"Uplifted Pai Lek 36" 10
+			"Uplifted Tek Far 78 - Osk"
+			"Uplifted Far Osk 27" 14
+			"Uplifted Tek Far 71 - Lek"
+			"Uplifted Far Lek 14" 16
+		add variant 1
+			"Uplifted Tak Kor Pei 412"
+			"Uplifted Far Osk 27" 38
+			"Uplifted Tek Far 149 - Lek"
+			"Uplifted Tur Lek 57" 6
