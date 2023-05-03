@@ -131,7 +131,7 @@ ship "Uplifted Tur Lek 57"
 		"Enhanced Detainer"
 		"Enhanced Warder Anti-Missile" 3
 		"Enhanced Grab-Strike Turret"
-		"Uplifted Lir Osk 05 Bay" 6
+		"Uplifted Lir Lek 05 Bay" 6
 		
 		"Triple Augmented Plasma Core"
 		"Double Augmented Plasma Core"

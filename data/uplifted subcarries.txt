@@ -1,12 +1,12 @@
-outfit "Uplifted Lir Osk 05 Bay"
+outfit "Uplifted Lir Lek 05 Bay"
 	category "Secondary Weapons"
 	cost 1250000
 	thumbnail "outfit/piercer launcher"
 	"energy capacity" 4000
 	"gun ports" -1
-	"uplifted lir osk 05 throughput" -1
+	"uplifted lir lek 05 throughput" -1
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
@@ -14,7 +14,7 @@ outfit "Uplifted Lir Osk 05 Bay"
 		"hit effect" "piercer impact"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
-		"submunition" "uplifted lir osk 05 1a"
+		"submunition" "uplifted lir lek 05 1a"
 		"inaccuracy" 5
 		"velocity" 20
 		"lifetime" 500
@@ -31,7 +31,7 @@ outfit "Uplifted Lir Osk 05 Bay"
 		"split range" 375
 		"cluster"
 		"phasing"
-	description "The Lir Osk 05 received the full treatment when being upgraded; it now features double the weapon count, with improved damage per shot to boot. The drones are also produced at an increased rate, greatly increasing swarming potential."
+	description "The Lir Lek 05 received the full treatment when being upgraded; it now features double the weapon count, with improved damage per shot to boot. The drones are also produced at an increased rate, greatly increasing swarming potential."
 
 outfit "enhanced mini repeater shot"
 	weapon
@@ -58,15 +58,15 @@ outfit "enhanced mini repeater salvo 2"
 		
 # Yes, I really have to do this. I'm so, so sorry.
 		
-outfit "uplifted lir osk 05 1a"
+outfit "uplifted lir lek 05 1a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 1b"
+		"submunition" "uplifted lir lek 05 1b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -79,15 +79,15 @@ outfit "uplifted lir osk 05 1a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 1b"
+outfit "uplifted lir lek 05 1b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 2a"
+		"submunition" "uplifted lir lek 05 2a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -99,15 +99,15 @@ outfit "uplifted lir osk 05 1b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 2a"
+outfit "uplifted lir lek 05 2a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 2b"
+		"submunition" "uplifted lir lek 05 2b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -120,15 +120,15 @@ outfit "uplifted lir osk 05 2a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 2b"
+outfit "uplifted lir lek 05 2b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 3a"
+		"submunition" "uplifted lir lek 05 3a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -140,15 +140,15 @@ outfit "uplifted lir osk 05 2b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 3a"
+outfit "uplifted lir lek 05 3a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 3b"
+		"submunition" "uplifted lir lek 05 3b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -161,15 +161,15 @@ outfit "uplifted lir osk 05 3a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 3b"
+outfit "uplifted lir lek 05 3b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 4a"
+		"submunition" "uplifted lir lek 05 4a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -181,15 +181,15 @@ outfit "uplifted lir osk 05 3b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 4a"
+outfit "uplifted lir lek 05 4a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 4b"
+		"submunition" "uplifted lir lek 05 4b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -202,15 +202,15 @@ outfit "uplifted lir osk 05 4a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 4b"
+outfit "uplifted lir lek 05 4b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 5a"
+		"submunition" "uplifted lir lek 05 5a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -222,15 +222,15 @@ outfit "uplifted lir osk 05 4b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 5a"
+outfit "uplifted lir lek 05 5a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 5b"
+		"submunition" "uplifted lir lek 05 5b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -243,15 +243,15 @@ outfit "uplifted lir osk 05 5a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 5b"
+outfit "uplifted lir lek 05 5b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 6a"
+		"submunition" "uplifted lir lek 05 6a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -263,15 +263,15 @@ outfit "uplifted lir osk 05 5b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 6a"
+outfit "uplifted lir lek 05 6a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 6b"
+		"submunition" "uplifted lir lek 05 6b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -284,15 +284,15 @@ outfit "uplifted lir osk 05 6a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 6b"
+outfit "uplifted lir lek 05 6b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 7a"
+		"submunition" "uplifted lir lek 05 7a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -304,15 +304,15 @@ outfit "uplifted lir osk 05 6b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 7a"
+outfit "uplifted lir lek 05 7a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 7b"
+		"submunition" "uplifted lir lek 05 7b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -325,15 +325,15 @@ outfit "uplifted lir osk 05 7a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 7b"
+outfit "uplifted lir lek 05 7b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 8a"
+		"submunition" "uplifted lir lek 05 8a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -345,15 +345,15 @@ outfit "uplifted lir osk 05 7b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 8a"
+outfit "uplifted lir lek 05 8a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 8b"
+		"submunition" "uplifted lir lek 05 8b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -366,15 +366,15 @@ outfit "uplifted lir osk 05 8a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 8b"
+outfit "uplifted lir lek 05 8b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 9a"
+		"submunition" "uplifted lir lek 05 9a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -386,15 +386,15 @@ outfit "uplifted lir osk 05 8b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 9a"
+outfit "uplifted lir lek 05 9a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 9b"
+		"submunition" "uplifted lir lek 05 9b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -407,15 +407,15 @@ outfit "uplifted lir osk 05 9a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 9b"
+outfit "uplifted lir lek 05 9b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 10a"
+		"submunition" "uplifted lir lek 05 10a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -427,15 +427,15 @@ outfit "uplifted lir osk 05 9b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 10a"
+outfit "uplifted lir lek 05 10a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 10b"
+		"submunition" "uplifted lir lek 05 10b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -448,15 +448,15 @@ outfit "uplifted lir osk 05 10a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 10b"
+outfit "uplifted lir lek 05 10b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 11a"
+		"submunition" "uplifted lir lek 05 11a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -468,15 +468,15 @@ outfit "uplifted lir osk 05 10b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 11a"
+outfit "uplifted lir lek 05 11a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 11b"
+		"submunition" "uplifted lir lek 05 11b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -489,15 +489,15 @@ outfit "uplifted lir osk 05 11a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 11b"
+outfit "uplifted lir lek 05 11b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 12a"
+		"submunition" "uplifted lir lek 05 12a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -509,15 +509,15 @@ outfit "uplifted lir osk 05 11b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 12a"
+outfit "uplifted lir lek 05 12a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 12b"
+		"submunition" "uplifted lir lek 05 12b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -530,15 +530,15 @@ outfit "uplifted lir osk 05 12a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 12b"
+outfit "uplifted lir lek 05 12b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 13a"
+		"submunition" "uplifted lir lek 05 13a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -550,15 +550,15 @@ outfit "uplifted lir osk 05 12b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 13a"
+outfit "uplifted lir lek 05 13a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 13b"
+		"submunition" "uplifted lir lek 05 13b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -571,15 +571,15 @@ outfit "uplifted lir osk 05 13a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 13b"
+outfit "uplifted lir lek 05 13b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 14a"
+		"submunition" "uplifted lir lek 05 14a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -591,15 +591,15 @@ outfit "uplifted lir osk 05 13b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 14a"
+outfit "uplifted lir lek 05 14a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 14b"
+		"submunition" "uplifted lir lek 05 14b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -612,15 +612,15 @@ outfit "uplifted lir osk 05 14a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 14b"
+outfit "uplifted lir lek 05 14b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 15a"
+		"submunition" "uplifted lir lek 05 15a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -632,15 +632,15 @@ outfit "uplifted lir osk 05 14b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 15a"
+outfit "uplifted lir lek 05 15a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 15b"
+		"submunition" "uplifted lir lek 05 15b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -653,15 +653,15 @@ outfit "uplifted lir osk 05 15a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 15b"
+outfit "uplifted lir lek 05 15b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 16a"
+		"submunition" "uplifted lir lek 05 16a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -673,15 +673,15 @@ outfit "uplifted lir osk 05 15b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 16a"
+outfit "uplifted lir lek 05 16a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 16b"
+		"submunition" "uplifted lir lek 05 16b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -694,15 +694,15 @@ outfit "uplifted lir osk 05 16a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 16b"
+outfit "uplifted lir lek 05 16b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 17a"
+		"submunition" "uplifted lir lek 05 17a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -714,15 +714,15 @@ outfit "uplifted lir osk 05 16b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 17a"
+outfit "uplifted lir lek 05 17a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 17b"
+		"submunition" "uplifted lir lek 05 17b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -735,15 +735,15 @@ outfit "uplifted lir osk 05 17a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 17b"
+outfit "uplifted lir lek 05 17b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 18a"
+		"submunition" "uplifted lir lek 05 18a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -755,15 +755,15 @@ outfit "uplifted lir osk 05 17b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 18a"
+outfit "uplifted lir lek 05 18a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 18b"
+		"submunition" "uplifted lir lek 05 18b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -776,15 +776,15 @@ outfit "uplifted lir osk 05 18a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 18b"
+outfit "uplifted lir lek 05 18b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 19a"
+		"submunition" "uplifted lir lek 05 19a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -796,15 +796,15 @@ outfit "uplifted lir osk 05 18b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 19a"
+outfit "uplifted lir lek 05 19a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 19b"
+		"submunition" "uplifted lir lek 05 19b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -817,15 +817,15 @@ outfit "uplifted lir osk 05 19a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 19b"
+outfit "uplifted lir lek 05 19b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 20a"
+		"submunition" "uplifted lir lek 05 20a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -837,15 +837,15 @@ outfit "uplifted lir osk 05 19b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 20a"
+outfit "uplifted lir lek 05 20a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 20b"
+		"submunition" "uplifted lir lek 05 20b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -858,15 +858,15 @@ outfit "uplifted lir osk 05 20a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 20b"
+outfit "uplifted lir lek 05 20b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 21a"
+		"submunition" "uplifted lir lek 05 21a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -878,15 +878,15 @@ outfit "uplifted lir osk 05 20b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 21a"
+outfit "uplifted lir lek 05 21a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 21b"
+		"submunition" "uplifted lir lek 05 21b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -899,15 +899,15 @@ outfit "uplifted lir osk 05 21a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 21b"
+outfit "uplifted lir lek 05 21b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 22a"
+		"submunition" "uplifted lir lek 05 22a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -919,15 +919,15 @@ outfit "uplifted lir osk 05 21b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 22a"
+outfit "uplifted lir lek 05 22a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 22b"
+		"submunition" "uplifted lir lek 05 22b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -940,15 +940,15 @@ outfit "uplifted lir osk 05 22a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 22b"
+outfit "uplifted lir lek 05 22b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 23a"
+		"submunition" "uplifted lir lek 05 23a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -960,15 +960,15 @@ outfit "uplifted lir osk 05 22b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 23a"
+outfit "uplifted lir lek 05 23a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 23b"
+		"submunition" "uplifted lir lek 05 23b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -981,15 +981,15 @@ outfit "uplifted lir osk 05 23a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 23b"
+outfit "uplifted lir lek 05 23b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 24a"
+		"submunition" "uplifted lir lek 05 24a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -1001,15 +1001,15 @@ outfit "uplifted lir osk 05 23b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 24a"
+outfit "uplifted lir lek 05 24a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 24b"
+		"submunition" "uplifted lir lek 05 24b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -1022,15 +1022,15 @@ outfit "uplifted lir osk 05 24a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 24b"
+outfit "uplifted lir lek 05 24b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 25a"
+		"submunition" "uplifted lir lek 05 25a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -1042,15 +1042,15 @@ outfit "uplifted lir osk 05 24b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 25a"
+outfit "uplifted lir lek 05 25a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 25b"
+		"submunition" "uplifted lir lek 05 25b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -1063,15 +1063,15 @@ outfit "uplifted lir osk 05 25a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 25b"
+outfit "uplifted lir lek 05 25b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 26a"
+		"submunition" "uplifted lir lek 05 26a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -1083,15 +1083,15 @@ outfit "uplifted lir osk 05 25b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 26a"
+outfit "uplifted lir lek 05 26a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 26b"
+		"submunition" "uplifted lir lek 05 26b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -1104,15 +1104,15 @@ outfit "uplifted lir osk 05 26a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 26b"
+outfit "uplifted lir lek 05 26b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 27a"
+		"submunition" "uplifted lir lek 05 27a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -1124,15 +1124,15 @@ outfit "uplifted lir osk 05 26b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 27a"
+outfit "uplifted lir lek 05 27a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 27b"
+		"submunition" "uplifted lir lek 05 27b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -1145,15 +1145,15 @@ outfit "uplifted lir osk 05 27a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 27b"
+outfit "uplifted lir lek 05 27b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 28a"
+		"submunition" "uplifted lir lek 05 28a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -1165,15 +1165,15 @@ outfit "uplifted lir osk 05 27b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 28a"
+outfit "uplifted lir lek 05 28a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 28b"
+		"submunition" "uplifted lir lek 05 28b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -1186,15 +1186,15 @@ outfit "uplifted lir osk 05 28a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 28b"
+outfit "uplifted lir lek 05 28b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 29a"
+		"submunition" "uplifted lir lek 05 29a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -1206,15 +1206,15 @@ outfit "uplifted lir osk 05 28b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 29a"
+outfit "uplifted lir lek 05 29a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 29b"
+		"submunition" "uplifted lir lek 05 29b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -1227,15 +1227,15 @@ outfit "uplifted lir osk 05 29a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 29b"
+outfit "uplifted lir lek 05 29b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 30a"
+		"submunition" "uplifted lir lek 05 30a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -1247,15 +1247,15 @@ outfit "uplifted lir osk 05 29b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 30a"
+outfit "uplifted lir lek 05 30a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 30b"
+		"submunition" "uplifted lir lek 05 30b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -1268,15 +1268,15 @@ outfit "uplifted lir osk 05 30a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 30b"
+outfit "uplifted lir lek 05 30b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 31a"
+		"submunition" "uplifted lir lek 05 31a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -1288,15 +1288,15 @@ outfit "uplifted lir osk 05 30b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 31a"
+outfit "uplifted lir lek 05 31a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 31b"
+		"submunition" "uplifted lir lek 05 31b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -1309,15 +1309,15 @@ outfit "uplifted lir osk 05 31a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 31b"
+outfit "uplifted lir lek 05 31b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 32a"
+		"submunition" "uplifted lir lek 05 32a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -1329,15 +1329,15 @@ outfit "uplifted lir osk 05 31b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 32a"
+outfit "uplifted lir lek 05 32a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 32b"
+		"submunition" "uplifted lir lek 05 32b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -1350,15 +1350,15 @@ outfit "uplifted lir osk 05 32a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 32b"
+outfit "uplifted lir lek 05 32b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 33a"
+		"submunition" "uplifted lir lek 05 33a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -1370,15 +1370,15 @@ outfit "uplifted lir osk 05 32b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 33a"
+outfit "uplifted lir lek 05 33a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 33b"
+		"submunition" "uplifted lir lek 05 33b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -1391,15 +1391,15 @@ outfit "uplifted lir osk 05 33a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 33b"
+outfit "uplifted lir lek 05 33b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 34a"
+		"submunition" "uplifted lir lek 05 34a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -1411,15 +1411,15 @@ outfit "uplifted lir osk 05 33b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 34a"
+outfit "uplifted lir lek 05 34a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 34b"
+		"submunition" "uplifted lir lek 05 34b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -1432,15 +1432,15 @@ outfit "uplifted lir osk 05 34a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 34b"
+outfit "uplifted lir lek 05 34b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 35a"
+		"submunition" "uplifted lir lek 05 35a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -1452,15 +1452,15 @@ outfit "uplifted lir osk 05 34b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 35a"
+outfit "uplifted lir lek 05 35a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 35b"
+		"submunition" "uplifted lir lek 05 35b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -1473,15 +1473,15 @@ outfit "uplifted lir osk 05 35a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 35b"
+outfit "uplifted lir lek 05 35b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 36a"
+		"submunition" "uplifted lir lek 05 36a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -1493,15 +1493,15 @@ outfit "uplifted lir osk 05 35b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 36a"
+outfit "uplifted lir lek 05 36a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 36b"
+		"submunition" "uplifted lir lek 05 36b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -1514,15 +1514,15 @@ outfit "uplifted lir osk 05 36a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 36b"
+outfit "uplifted lir lek 05 36b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 37a"
+		"submunition" "uplifted lir lek 05 37a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -1534,15 +1534,15 @@ outfit "uplifted lir osk 05 36b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 37a"
+outfit "uplifted lir lek 05 37a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 37b"
+		"submunition" "uplifted lir lek 05 37b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -1555,15 +1555,15 @@ outfit "uplifted lir osk 05 37a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 37b"
+outfit "uplifted lir lek 05 37b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 38a"
+		"submunition" "uplifted lir lek 05 38a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -1575,15 +1575,15 @@ outfit "uplifted lir osk 05 37b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 38a"
+outfit "uplifted lir lek 05 38a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 38b"
+		"submunition" "uplifted lir lek 05 38b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -1596,15 +1596,15 @@ outfit "uplifted lir osk 05 38a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 38b"
+outfit "uplifted lir lek 05 38b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 39a"
+		"submunition" "uplifted lir lek 05 39a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -1616,15 +1616,15 @@ outfit "uplifted lir osk 05 38b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 39a"
+outfit "uplifted lir lek 05 39a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 39b"
+		"submunition" "uplifted lir lek 05 39b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -1637,15 +1637,15 @@ outfit "uplifted lir osk 05 39a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 39b"
+outfit "uplifted lir lek 05 39b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 40a"
+		"submunition" "uplifted lir lek 05 40a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -1657,15 +1657,15 @@ outfit "uplifted lir osk 05 39b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 40a"
+outfit "uplifted lir lek 05 40a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 40b"
+		"submunition" "uplifted lir lek 05 40b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -1678,15 +1678,15 @@ outfit "uplifted lir osk 05 40a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 40b"
+outfit "uplifted lir lek 05 40b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 41a"
+		"submunition" "uplifted lir lek 05 41a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -1698,15 +1698,15 @@ outfit "uplifted lir osk 05 40b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 41a"
+outfit "uplifted lir lek 05 41a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 41b"
+		"submunition" "uplifted lir lek 05 41b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -1719,15 +1719,15 @@ outfit "uplifted lir osk 05 41a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 41b"
+outfit "uplifted lir lek 05 41b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 42a"
+		"submunition" "uplifted lir lek 05 42a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -1739,15 +1739,15 @@ outfit "uplifted lir osk 05 41b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 42a"
+outfit "uplifted lir lek 05 42a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 42b"
+		"submunition" "uplifted lir lek 05 42b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -1760,15 +1760,15 @@ outfit "uplifted lir osk 05 42a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 42b"
+outfit "uplifted lir lek 05 42b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 43a"
+		"submunition" "uplifted lir lek 05 43a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -1780,15 +1780,15 @@ outfit "uplifted lir osk 05 42b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 43a"
+outfit "uplifted lir lek 05 43a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 43b"
+		"submunition" "uplifted lir lek 05 43b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -1801,15 +1801,15 @@ outfit "uplifted lir osk 05 43a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 43b"
+outfit "uplifted lir lek 05 43b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 44a"
+		"submunition" "uplifted lir lek 05 44a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -1821,15 +1821,15 @@ outfit "uplifted lir osk 05 43b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 44a"
+outfit "uplifted lir lek 05 44a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 44b"
+		"submunition" "uplifted lir lek 05 44b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -1842,15 +1842,15 @@ outfit "uplifted lir osk 05 44a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 44b"
+outfit "uplifted lir lek 05 44b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 45a"
+		"submunition" "uplifted lir lek 05 45a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -1862,15 +1862,15 @@ outfit "uplifted lir osk 05 44b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 45a"
+outfit "uplifted lir lek 05 45a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 45b"
+		"submunition" "uplifted lir lek 05 45b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -1883,15 +1883,15 @@ outfit "uplifted lir osk 05 45a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 45b"
+outfit "uplifted lir lek 05 45b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 46a"
+		"submunition" "uplifted lir lek 05 46a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -1903,15 +1903,15 @@ outfit "uplifted lir osk 05 45b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 46a"
+outfit "uplifted lir lek 05 46a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 46b"
+		"submunition" "uplifted lir lek 05 46b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -1924,15 +1924,15 @@ outfit "uplifted lir osk 05 46a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 46b"
+outfit "uplifted lir lek 05 46b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 47a"
+		"submunition" "uplifted lir lek 05 47a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -1944,15 +1944,15 @@ outfit "uplifted lir osk 05 46b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 47a"
+outfit "uplifted lir lek 05 47a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 47b"
+		"submunition" "uplifted lir lek 05 47b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -1965,15 +1965,15 @@ outfit "uplifted lir osk 05 47a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 47b"
+outfit "uplifted lir lek 05 47b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 48a"
+		"submunition" "uplifted lir lek 05 48a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -1985,15 +1985,15 @@ outfit "uplifted lir osk 05 47b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 48a"
+outfit "uplifted lir lek 05 48a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 48b"
+		"submunition" "uplifted lir lek 05 48b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -2006,15 +2006,15 @@ outfit "uplifted lir osk 05 48a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 48b"
+outfit "uplifted lir lek 05 48b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 49a"
+		"submunition" "uplifted lir lek 05 49a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -2026,15 +2026,15 @@ outfit "uplifted lir osk 05 48b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 49a"
+outfit "uplifted lir lek 05 49a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 49b"
+		"submunition" "uplifted lir lek 05 49b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -2047,15 +2047,15 @@ outfit "uplifted lir osk 05 49a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 49b"
+outfit "uplifted lir lek 05 49b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 50a"
+		"submunition" "uplifted lir lek 05 50a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -2067,15 +2067,15 @@ outfit "uplifted lir osk 05 49b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 50a"
+outfit "uplifted lir lek 05 50a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 50b"
+		"submunition" "uplifted lir lek 05 50b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -2088,15 +2088,15 @@ outfit "uplifted lir osk 05 50a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 50b"
+outfit "uplifted lir lek 05 50b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 51a"
+		"submunition" "uplifted lir lek 05 51a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -2108,15 +2108,15 @@ outfit "uplifted lir osk 05 50b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 51a"
+outfit "uplifted lir lek 05 51a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 51b"
+		"submunition" "uplifted lir lek 05 51b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -2129,15 +2129,15 @@ outfit "uplifted lir osk 05 51a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 51b"
+outfit "uplifted lir lek 05 51b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 52a"
+		"submunition" "uplifted lir lek 05 52a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -2149,15 +2149,15 @@ outfit "uplifted lir osk 05 51b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 52a"
+outfit "uplifted lir lek 05 52a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 52b"
+		"submunition" "uplifted lir lek 05 52b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -2170,15 +2170,15 @@ outfit "uplifted lir osk 05 52a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 52b"
+outfit "uplifted lir lek 05 52b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 53a"
+		"submunition" "uplifted lir lek 05 53a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -2190,15 +2190,15 @@ outfit "uplifted lir osk 05 52b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 53a"
+outfit "uplifted lir lek 05 53a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 53b"
+		"submunition" "uplifted lir lek 05 53b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -2211,15 +2211,15 @@ outfit "uplifted lir osk 05 53a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 53b"
+outfit "uplifted lir lek 05 53b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 54a"
+		"submunition" "uplifted lir lek 05 54a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -2231,15 +2231,15 @@ outfit "uplifted lir osk 05 53b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 54a"
+outfit "uplifted lir lek 05 54a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 54b"
+		"submunition" "uplifted lir lek 05 54b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -2252,15 +2252,15 @@ outfit "uplifted lir osk 05 54a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 54b"
+outfit "uplifted lir lek 05 54b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 55a"
+		"submunition" "uplifted lir lek 05 55a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -2272,15 +2272,15 @@ outfit "uplifted lir osk 05 54b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 55a"
+outfit "uplifted lir lek 05 55a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 55b"
+		"submunition" "uplifted lir lek 05 55b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -2293,15 +2293,15 @@ outfit "uplifted lir osk 05 55a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 55b"
+outfit "uplifted lir lek 05 55b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 56a"
+		"submunition" "uplifted lir lek 05 56a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -2313,15 +2313,15 @@ outfit "uplifted lir osk 05 55b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 56a"
+outfit "uplifted lir lek 05 56a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 56b"
+		"submunition" "uplifted lir lek 05 56b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -2334,15 +2334,15 @@ outfit "uplifted lir osk 05 56a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 56b"
+outfit "uplifted lir lek 05 56b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 57a"
+		"submunition" "uplifted lir lek 05 57a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -2354,15 +2354,15 @@ outfit "uplifted lir osk 05 56b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 57a"
+outfit "uplifted lir lek 05 57a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 57b"
+		"submunition" "uplifted lir lek 05 57b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -2375,15 +2375,15 @@ outfit "uplifted lir osk 05 57a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 57b"
+outfit "uplifted lir lek 05 57b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 58a"
+		"submunition" "uplifted lir lek 05 58a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -2395,15 +2395,15 @@ outfit "uplifted lir osk 05 57b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 58a"
+outfit "uplifted lir lek 05 58a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 58b"
+		"submunition" "uplifted lir lek 05 58b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -2416,15 +2416,15 @@ outfit "uplifted lir osk 05 58a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 58b"
+outfit "uplifted lir lek 05 58b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 59a"
+		"submunition" "uplifted lir lek 05 59a"
 		"submunition" "enhanced mini repeater salvo 2"
 		"submunition" "enhanced mini repeater shot"
 		"lifetime" 120
@@ -2436,15 +2436,15 @@ outfit "uplifted lir osk 05 58b"
 		"phasing"
 		"split range" 375
 		
-outfit "uplifted lir osk 05 59a"
+outfit "uplifted lir lek 05 59a"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
-		"submunition" "uplifted lir osk 05 59b"
+		"submunition" "uplifted lir lek 05 59b"
 		"lifetime" 12
 		"velocity" -40
 		"acceleration" 1
@@ -2457,9 +2457,9 @@ outfit "uplifted lir osk 05 59a"
 		"hull damage" -17
 		"heat damage" -22
 		
-outfit "uplifted lir osk 05 59b"
+outfit "uplifted lir lek 05 59b"
 	weapon
-		sprite "projectile/lir osk 05"
+		sprite "projectile/lir lek 05"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"

@@ -121,7 +121,7 @@ ship "Tur Lek 57"
 	outfits
 		"Korath Detainer"
 		"Warder Anti-Missile" 2
-		"Lir Osk 05 Bay" 4
+		"Lir Lek 05 Bay" 4
 		
 		"Double Plasma Core"
 		"Plasma Core"
