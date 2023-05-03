@@ -153,22 +153,22 @@ ship "Uplifted Tur Lek 57"
 	turret 15.5 -15.5
 	turret 21 133.5
 	# Pseudo-bays below
-	gun -10.5 -86 "Uplifted Lir Osk 05 Bay"
+	gun -10.5 -86 "Uplifted Lir Lek 05 Bay"
 		angle -90
 		parallel
-	gun -11.5 -78.5 "Uplifted Lir Osk 05 Bay"
+	gun -11.5 -78.5 "Uplifted Lir Lek 05 Bay"
 		angle -90
 		parallel
-	gun -31.5 -17.5 "Uplifted Lir Osk 05 Bay"
+	gun -31.5 -17.5 "Uplifted Lir Lek 05 Bay"
 		angle -90
 		parallel
-	gun -23 57 "Uplifted Lir Osk 05 Bay"
+	gun -23 57 "Uplifted Lir Lek 05 Bay"
 		angle -90
 		parallel
-	gun -46.5 97 "Uplifted Lir Osk 05 Bay"
+	gun -46.5 97 "Uplifted Lir Lek 05 Bay"
 		angle -90
 		parallel
-	gun -29.5 132 "Uplifted Lir Osk 05 Bay"
+	gun -29.5 132 "Uplifted Lir Lek 05 Bay"
 		angle -90
 		parallel
 	explode "tiny explosion" 60

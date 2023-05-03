@@ -139,16 +139,16 @@ ship "Tur Lek 57"
 	turret 14.5 -41
 	turret 15.5 -15.5
 	# Pseudo-bays below
-	gun -11.5 -78.5 "Lir Osk 05 Bay"
+	gun -11.5 -78.5 "Lir Lek 05 Bay"
 		angle -90
 		parallel
-	gun -31.5 -17.5 "Lir Osk 05 Bay"
+	gun -31.5 -17.5 "Lir Lek 05 Bay"
 		angle -90
 		parallel
-	gun -23 57 "Lir Osk 05 Bay"
+	gun -23 57 "Lir Lek 05 Bay"
 		angle -90
 		parallel
-	gun -46.5 97 "Lir Osk 05 Bay"
+	gun -46.5 97 "Lir Lek 05 Bay"
 		angle -90
 		parallel
 	explode "tiny explosion" 60
