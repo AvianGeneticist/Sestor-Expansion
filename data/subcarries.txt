@@ -1,6 +1,3 @@
-outfitter "Sestor Basics"
-	"Lir Osk 05 Bay"
-
 outfit "Lir Osk 05 Bay"
 	category "Secondary Weapons"
 	cost 1250000
