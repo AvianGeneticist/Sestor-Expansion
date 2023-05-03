@@ -112,7 +112,7 @@ ship "Tur Lek 57"
 		"weapon capacity" 132
 		"engine capacity" 80
 		"self destruct" .65
-		"lir osk 05 throughput" 4
+		"lir lek 05 throughput" 4
 		weapon
 			"blast radius" 320
 			"shield damage" 4000

@@ -121,7 +121,7 @@ ship "Uplifted Tur Lek 57"
 		"weapon capacity" 208
 		"engine capacity" 112
 		"self destruct" .65
-		"uplifted lir osk 05 throughput" 6
+		"uplifted lir lek 05 throughput" 6
 		weapon
 			"blast radius" 320
 			"shield damage" 4000
