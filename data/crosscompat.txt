@@ -1,3 +1,19 @@
+# For use with Play as Sestor. Unlocks upgraded outfits associated with PAS's research.
+
+mission "Energetic Weapon Adaptation"
+	description "Adds the upgraded Pai Lek 36 to Sestor Shipyards."
+	landing
+	invisible
+	to offer
+		has "event: energetic research concluded"
+	on offer
+		event "crosscompat energy weapon research"
+		
+event "crosscompat energy weapon research"
+	outfitter "Sestor Advanced"
+		add "Quad Enhanced Repeater Turret"
+		add "Enhanced Detainer Turret"
+		
 # For use with Play as Sestor. Unlocks upgraded ships associated with PAS's research.
 
 mission "Fighter Hull Adaptation"
@@ -28,6 +44,38 @@ event "crosscompat fighter research"
 			"Uplifted Pai Lek 36" 5
 			"Met Par Tek 53"
 			"Met Par Tek 53 (Sniper)"
+			
+mission "Light Warship Hull Patch - BPK39"
+	description "Adds the upgraded Bek Par Kel 39 to Sestor Shipyards."
+	landing
+	invisible
+	to offer
+		has "event: crosscompat fighter research"
+	on offer
+		event "crosscompat bpk39 research"
+
+event "crosscompat bpk39 research"
+	shipyard "Sestor Basics"
+		add "Uplifted Bek Par Kel 39"
+	fleet "Small Kor Sestor"
+		add variant 6
+			"Uplifted Bek Par Kel 39" 6
+		add variant 3
+			"Uplifted Bek Par Kel 39" 3
+			"Met Par Tek 53 (Sniper)" 2
+	fleet "Large Kor Sestor"
+		add variant 6
+			"Uplifted Bek Par Kel 39" 10
+		add variant 4
+			"Uplifted Bek Par Kel 39" 6
+			"Met Par Tek 53 (Sniper)" 3
+		add variant 3
+			"Uplifted Bek Par Kel 39" 6
+			"Kar Ik Vot 349"
+		add variant 3
+			"Uplifted Bek Par Kel 39" 5
+			"Tek Far 87 - Lek"
+			"Uplifted Pai Lek 36" 7
 			
 mission "Light Warship Hull Adaptation"
 	description "Adds the upgraded Pai Osk 45 to Sestor Shipyards."

@@ -160,6 +160,59 @@ ship "Tur Lek 57"
 	description "A prime example of relentless Sestor engineering: this ship is capable of producing tiny drones before charging and launching them into the fray to attack enemy ships, while also being a carried attack drone in and of itself."
 
 
+ship "Bek Par Kel 39"
+	sprite "ship/bek par kel 39"
+	thumbnail "ship/bek par kel 39"
+	attributes
+		category "Interceptor"
+		"cost" 8260000
+		"shields" 8200
+		"hull" 14300
+		"automaton" 1
+		"crew equivalent" 10
+		"mass" 230
+		"drag" 2.7
+		"heat dissipation" .95
+		"fuel capacity" 400
+		"cargo space" 13
+		"outfit space" 358
+		"weapon capacity" 143
+		"engine capacity" 70
+		"self destruct" .5
+		"ramscoop" 2
+		weapon
+			"blast radius" 150
+			"shield damage" 2500
+			"hull damage" 1100
+			"hit force" 2200
+	outfits
+		"Piercer Missile Launcher" 4
+		"Piercer Missile Rack" 6
+		"Piercer Missile" 220
+		"Warder Anti-Missile"
+		
+		"Generator (Inferno Class)"
+		"Systems Core (Small)"
+		"Control Transceiver"
+		
+		"Thruster (Comet Class)"
+		"Steering (Lunar Class)"
+		"Hyperdrive"
+	
+	engine 0 90.5
+	gun -4 -60
+	gun -4 -60
+	gun 4 -60
+	gun 4 -60
+	turret 0 29
+	explode "tiny explosion" 30
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	explode "large explosion" 5
+	"final explode" "final explosion small"
+	description "This relatively small ship can be easily mistaken for just an oversized fighter at first glance, but is in fact powerful missile boat equipped with a hyperdrive. Despite being employed as an interceptor, it is still larger than many classes of human ship."
+
+
 ship "Tak Kor Pei 412"
 	sprite "ship/tak kor pei 412"
 	thumbnail "thumbnail/tak kor pei 412"

@@ -180,6 +180,60 @@ ship "Uplifted Tur Lek 57"
 	description "The upgrades to the Tur Lek 57 included a great deal of enhancement to its carrying potential, as well as some tweaks to its armament. Though its direct firepower isn't greatly improved, it does possess a Grab-Strike to allow it to contribute some extra damage from afar."
 
 
+ship "Uplifted Bek Par Kel 39"
+	sprite "ship/bek par kel 39"
+	thumbnail "ship/bek par kel 39"
+	attributes
+		category "Interceptor"
+		"cost" 13260000
+		"shields" 11800
+		"hull" 21900
+		"automaton" 1
+		"crew equivalent" 10
+		"mass" 230
+		"drag" 3.7
+		"heat dissipation" 1.0
+		"fuel capacity" 400
+		"cargo space" 27
+		"outfit space" 604
+		"weapon capacity" 283
+		"engine capacity" 106
+		"self destruct" .5
+		"ramscoop" 2.5
+		weapon
+			"blast radius" 150
+			"shield damage" 2500
+			"hull damage" 1100
+			"hit force" 2200
+	outfits
+		"Piercer Missile Augmentator" 6
+		"Piercer Missile Rack" 14
+		"Piercer Missile" 494
+		"Enhanced Warder Anti-Missile"
+		
+		"Augmented Plasma Core"
+		"Reengineered Large Heat Shunt"
+		"Advanced Systems Core (Small)"
+		
+		"Thruster (Lunar Class)"
+		"Thruster (Asteroid Class)"
+		"Steering (Planetary Class)"
+		"Hyperdrive"
+	
+	engine 0 90.5
+	gun -4 -60
+	gun -4 -60
+	gun -4 -60
+	gun 4 -60
+	gun 4 -60
+	gun 4 -60
+	turret 0 29
+	explode "tiny explosion" 30
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	explode "large explosion" 5
+	"final explode" "final explosion small"
+	description `When upgraded, these compact ships were granted vastly enhanced mobility and much deeper ammunition reserves, allowing them to more effectively rain fire with their upgraded launchers.`
 
 ship "Uplifted Set Ru Ket 112"
 	sprite "ship/set ru ket 112"
