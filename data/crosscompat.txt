@@ -324,3 +324,25 @@ event "crosscompat tf149 research"
 			"Uplifted Far Osk 27" 38
 			"Uplifted Tek Far 149 - Lek"
 			"Uplifted Tur Lek 57" 6
+			
+mission "Superheavy Hull Patch - KTP497"
+	description "Adds the upgraded Kar Te Pet 497 to Sestor Shipyards."
+	landing
+	invisible
+	to offer
+		has "event: sestor superheavy ship research concluded"
+	on offer
+		event "crosscompat ktp497 research"
+
+event "crosscompat ktp497 research"
+	shipyard "Sestor Advanced"
+		add "Uplifted Kar Te Pet 497"
+	fleet "Large Kor Sestor"
+		add variant 6
+			"Uplifted Kar Te Pet 497"
+		add variant 2
+			"Uplifted Kar Te Pet 497"
+			"Uplifted Met Par Tek" 2
+		add variant 2
+			"Uplifted Kar Te Pet 497"
+			"Uplifted Bek Par Kel 39" 4

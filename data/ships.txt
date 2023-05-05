@@ -212,6 +212,94 @@ ship "Bek Par Kel 39"
 	"final explode" "final explosion small"
 	description "This relatively small ship can be easily mistaken for just an oversized fighter at first glance, but is in fact powerful missile boat equipped with a hyperdrive. Despite being employed as an interceptor, it is still larger than many classes of human ship."
 
+ship "Kar Te Pet 497"
+	sprite "ship/kar te pet 497"
+	thumbnail "thumbnail/kar te pet 497"
+	attributes
+		category "Superheavy"
+		"cost" 81280000
+		"shields" 84200
+		"hull" 103600
+		"automaton" 1
+		"crew equivalent" 280
+		"mass" 1870
+		"drag" 39.8
+		"heat dissipation" .4
+		"fuel capacity" 400
+		"cargo space" 279
+		"outfit space" 1893
+		"weapon capacity" 951
+		"engine capacity" 287
+		"self destruct" .95
+		"ramscoop" 5
+		weapon
+			"blast radius" 600
+			"shield damage" 11000
+			"hull damage" 8000
+			"hit force" 12000
+	outfits
+		"Korath Detainer" 2
+		"Piercer Missile Launcher" 4
+		"Piercer Missile" 124
+		"Warder Anti-Missile" 6
+		"Thermal Repeater Turret" 8
+		"Grab-Strike Turret" 2
+		
+		"Triple Plasma Core" 2
+		"Double Plasma Core"
+		"Generator (Candle Class)"
+		"Systems Core (Large)"
+		"Systems Core (Medium)"
+		"Large Heat Shunt" 10
+		"Small Heat Shunt" 1
+		"Control Transceiver"
+		
+		"Thruster (Stellar Class)"
+		"Steering (Stellar Class)"
+		"Steering (Planetary Class)"
+		Hyperdrive
+	
+	engine -24 237
+	engine 24 237
+	gun -35 -267
+	gun -35 -267 "Korath Detainer"
+	gun 35 -267
+	gun 35 -267 "Korath Detainer"
+	gun -18 -267.5
+	gun -18 -267.5
+	gun 18 -267.5
+	gun 18 -267.5
+	gun -42.5 -213 "Piercer Missile Launcher"
+	gun 42.5 -213 "Piercer Missile Launcher"
+	gun -10.5 -213 "Piercer Missile Launcher"
+	gun 10.5 -213 "Piercer Missile Launcher"
+	turret -63 -205.5 "Thermal Repeater Turret"
+	turret 63 -205.5 "Thermal Repeater Turret"
+	turret -65 -186.5 "Thermal Repeater Turret"
+	turret 65 -186.5 "Thermal Repeater Turret"
+	turret -66 -167 "Thermal Repeater Turret"
+	turret 66 -167 "Thermal Repeater Turret"
+	turret -69 -145.5 "Thermal Repeater Turret"
+	turret 69 -145.5 "Thermal Repeater Turret"
+	turret -116.5 -18 "Warder Anti-Missile"
+	turret 116.5 -18 "Warder Anti-Missile"
+	turret -140.5 79.5
+	turret 140.5 79.5
+	turret -140 107 "Grab-Strike Turret"
+	turret 140 107 "Grab-Strike Turret"
+	turret -141 133.5 "Warder Anti-Missile"
+	turret 141 133.5 "Warder Anti-Missile"
+	turret -140 160.5
+	turret 140 160.5
+	turret -124.5 244 "Warder Anti-Missile"
+	turret 124.5 244 "Warder Anti-Missile"
+	explode "tiny explosion" 250
+	explode "small explosion" 150
+	explode "medium explosion" 130
+	explode "large explosion" 95
+	explode "huge explosion" 35
+	"final explode" "final explosion huge"
+	description `Built on the original Kar Ik Vot platform, the Kar Te Pet is a sight to behold. Just one of these ships is enough to displace even the largest Mereti Warfleets due to its immensely durable hull and colossal capacity for armament. Though not particularly fast, it is surprisingly nimble for a ship of its size.`
 
 ship "Tak Kor Pei 412"
 	sprite "ship/tak kor pei 412"

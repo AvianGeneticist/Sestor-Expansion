@@ -144,6 +144,15 @@ fleet "Large Kor Sestor"
 	add variant 2
 		"Set Ru Ket 112"
 		"Kar Ik Vot 349"
+	add variant 6
+		"Kar Te Pet 497"
+	add variant 2
+		"Kar Te Pet 497"
+		"Met Par Tek" 2
+	add variant 2
+		"Kar Te Pet 497"
+		"Bek Par Kel 39" 4
+	
 		
 fleet "Kor Sestor Miner"
 	government "Kor Sestor"

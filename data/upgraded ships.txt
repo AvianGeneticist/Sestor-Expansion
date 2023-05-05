@@ -235,6 +235,102 @@ ship "Uplifted Bek Par Kel 39"
 	"final explode" "final explosion small"
 	description `When upgraded, these compact ships were granted vastly enhanced mobility and much deeper ammunition reserves, allowing them to more effectively rain fire with their upgraded launchers.`
 
+ship "Uplifted Kar Te Pet 497"
+	sprite "ship/kar te pet 497"
+	thumbnail "thumbnail/kar te pet 497"
+	attributes
+		category "Superheavy"
+		"cost" 113450000
+		"shields" 108200
+		"hull" 169100
+		"automaton" 1
+		"crew equivalent" 280
+		"mass" 1670
+		"drag" 39.8
+		"heat dissipation" .5
+		"fuel capacity" 400
+		"cargo space" 382
+		"outfit space" 2969
+		"weapon capacity" 1437
+		"engine capacity" 301
+		"self destruct" .95
+		"ramscoop" 5
+		weapon
+			"blast radius" 600
+			"shield damage" 11000
+			"hull damage" 8000
+			"hit force" 12000
+	outfits
+		"Enhanced Thermal Repeater" 4
+		"Enhanced Detainer" 2
+		"Piercer Missile Augmentator" 6
+		"Piercer Missile" 270
+		"Enhanced Warder Anti-Missile" 6
+		"Enhanced Repeater Turret" 12
+		"Enhanced Detainer Turret" 4
+		"Enhanced Grab-Strike Turret" 4
+		
+		"Triple Augmented Plasma Core" 4
+		"Tuned Generator (Furnace Class)"
+		"Advanced Systems Core (Large)" 2
+		"Advanced Systems Core (Medium)"
+		"Reengineered Huge Heat Shunt" 4
+		
+		"Thruster (Stellar Class)"
+		"Thruster (Asteroid Class)"
+		"Steering (Stellar Class)"
+		"Steering (Planetary Class)"
+		"Steering (Comet Class)"
+		Hyperdrive
+	
+	engine -24 237
+	engine 24 237
+	gun -35 -267 "Piercer Missile Augmentator"
+	gun -35 -267 "Enhanced Detainer"
+	gun 35 -267 "Piercer Missile Augmentator"
+	gun 35 -267 "Enhanced Detainer"
+	gun -18 -267.5 "Enhanced Thermal Repeater"
+	gun -18 -267.5 "Enhanced Thermal Repeater"
+	gun 18 -267.5 "Enhanced Thermal Repeater"
+	gun 18 -267.5 "Enhanced Thermal Repeater"
+	gun -42.5 -213 "Piercer Missile Augmentator"
+	gun 42.5 -213 "Piercer Missile Augmentator"
+	gun -10.5 -213 "Piercer Missile Augmentator"
+	gun 10.5 -213 "Piercer Missile Augmentator"
+	turret -60.5 -219 "Enhanced Repeater Turret"
+	turret 60.5 -219 "Enhanced Repeater Turret"
+	turret -63 -205.5 "Enhanced Repeater Turret"
+	turret 63 -205.5 "Enhanced Repeater Turret"
+	turret -65 -186.5 "Enhanced Repeater Turret"
+	turret 65 -186.5 "Enhanced Repeater Turret"
+	turret -66 -167 "Enhanced Repeater Turret"
+	turret 66 -167 "Enhanced Repeater Turret"
+	turret -69 -145.5 "Enhanced Repeater Turret"
+	turret 69 -145.5 "Enhanced Repeater Turret"
+	turret -116.5 -18 "Enhanced Warder Anti-Missile"
+	turret 116.5 -18 "Enhanced Warder Anti-Missile"
+	turret -121 -1 "Enhanced Grab-Strike Turret"
+	turret 121 -1 "Enhanced Grab-Strike Turret"
+	turret -124 13.5 "Enhanced Repeater Turret"
+	turret 124 13.5 "Enhanced Repeater Turret"
+	turret -140.5 79.5 "Enhanced Detainer Turret"
+	turret 140.5 79.5 "Enhanced Detainer Turret"
+	turret -140 107 "Enhanced Grab-Strike Turret"
+	turret 140 107 "Enhanced Grab-Strike Turret"
+	turret -141 133.5 "Enhanced Warder Anti-Missile"
+	turret 141 133.5 "Enhanced Warder Anti-Missile"
+	turret -140 160.5 "Enhanced Detainer Turret"
+	turret 140 160.5 "Enhanced Detainer Turret"
+	turret -124.5 244 "Enhanced Warder Anti-Missile"
+	turret 124.5 244 "Enhanced Warder Anti-Missile"
+	explode "tiny explosion" 250
+	explode "small explosion" 150
+	explode "medium explosion" 130
+	explode "large explosion" 95
+	explode "huge explosion" 35
+	"final explode" "final explosion huge"
+	description `The Kar Te Pet was given special attention during the upgrading process, with the intent of making full use of its massive armament capacities. Though it runs a significant energy deficit, its output is unmatched by any ship in Sestor space.`
+
 ship "Uplifted Set Ru Ket 112"
 	sprite "ship/set ru ket 112"
 	thumbnail "thumbnail/set ru ket 112"
